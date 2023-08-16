@@ -104,12 +104,12 @@
 
         l-esc {
             bindings = <&kp ESC>;
-            key-positions = <11 12 13>;
+            key-positions = <11 10>;
         };
 
         r-esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <16 17 18>;
+            key-positions = <18 19>;
         };
 
         l-alt {
