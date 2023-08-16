@@ -171,6 +171,16 @@
             bindings = <&kp DE_GREATER_THAN>;
             key-positions = <25 26>;
         };
+
+        backslash {
+            bindings = <&kp DE_BACKSLASH>;
+            key-positions = <0 1>;
+        };
+
+        frontslash {
+            bindings = <&kp DE_SLASH>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
