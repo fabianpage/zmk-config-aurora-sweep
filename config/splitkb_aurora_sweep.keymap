@@ -72,10 +72,10 @@
 
         nav_nag {
             bindings = <
-&kp DE_GRAVE      &kp DE_AT     &kp DE_EQUAL  &kp DE_AMPERSAND  &kp DE_CARET  &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0
-    &kp HOME  &kp PAGE_DOWN      &kp PAGE_UP           &kp END  &kp DE_TILDE  &kp MINUS    &kp EQL   &kp LBKT   &kp RBKT    &kp DEL
-&kp DE_ACUTE          &to 2  &kp NON_US_BSLH   &kp NON_US_HASH    &kp TILDE2  &kp MINUS  &kp GRAVE   &kp LBKT   &kp RBKT    &kp DEL
-                                                         &mo 1      &kp LGUI   &kp RGUI      &mo 2
+&kp DE_GRAVE      &kp DE_AT  &kp DE_EQUAL  &kp DE_AMPERSAND  &kp DE_CARET  &kp DE_PERCENT  &kp DE_DOUBLE_QUOTES   &kp DE_PLUS           &kp NUM_9  &kp DE_U_UMLAUT
+    &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP           &kp END  &kp DE_TILDE  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &kp DE_A_UMLAUT
+&kp DE_ACUTE          &to 2  &kp CAPSLOCK     &kp DE_DOLLAR   &kp DE_HASH   &kp DE_DEGREE   &kp DE_SINGLE_QUOTE  &kp DE_ASTRK  &kp DE_EXCLAMATION  &kp DE_QUESTION
+                                                      &mo 1      &kp LGUI        &kp RGUI                 &mo 2
             >;
         };
 
