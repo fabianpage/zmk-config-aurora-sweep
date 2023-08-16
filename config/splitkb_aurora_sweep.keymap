@@ -198,7 +198,7 @@
         };
 
         to1 {
-            bindings = <&to 1>;
+            bindings = <&mo 0>;
             key-positions = <5 15>;
         };
 
@@ -209,6 +209,19 @@
     };
 
     macros {
+    };
+
+    behaviors {
+        brace: brace {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BRACE";
+            bindings =
+                <&kp DE_LEFT_BRACE>,
+                <&kp DE_RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
