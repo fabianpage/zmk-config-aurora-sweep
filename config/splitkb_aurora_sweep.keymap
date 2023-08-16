@@ -24,27 +24,27 @@
 
         n1 {
             bindings = <&kp NUMBER_1>;
-            key-positions = <5 6>;
+            key-positions = <15 16>;
         };
 
         n2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
         };
 
         n3 {
             bindings = <&kp NUMBER_3>;
-            key-positions = <25 26>;
+            key-positions = <>;
         };
 
         n4 {
             bindings = <&kp NUMBER_4>;
-            key-positions = <3 13>;
+            key-positions = <5 6>;
         };
 
         n5 {
             bindings = <&kp NUMBER_5>;
-            key-positions = <4 14>;
+            key-positions = <16 17>;
         };
 
         n6 {
@@ -54,17 +54,17 @@
 
         n7 {
             bindings = <&kp NUMBER_7>;
-            key-positions = <6 16>;
+            key-positions = <25 26>;
         };
 
         n8 {
             bindings = <&kp NUMBER_8>;
-            key-positions = <7 17>;
+            key-positions = <26 27>;
         };
 
         n9 {
             bindings = <&kp NUMBER_9>;
-            key-positions = <8 18>;
+            key-positions = <>;
         };
 
         n0 {
@@ -79,7 +79,7 @@
 
         r-enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 17>;
+            key-positions = <16 19>;
         };
 
         l-gui {
@@ -99,7 +99,7 @@
 
         r-backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <6 7>;
+            key-positions = <6 9>;
         };
 
         l-esc {
@@ -204,7 +204,7 @@
 
         space {
             bindings = <&kp DE_SPACE>;
-            key-positions = <25 15>;
+            key-positions = <26 29>;
         };
     };
 
