@@ -198,7 +198,7 @@
         };
 
         to1 {
-            bindings = <&mo 0>;
+            bindings = <&mo 1>;
             key-positions = <5 15>;
         };
 
