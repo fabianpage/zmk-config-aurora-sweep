@@ -22,40 +22,86 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
+        n1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <0 10>;
         };
 
-        combo_tab {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp TAB>;
+        n2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <1 11>;
         };
 
-        combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
+        n3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <2 12>;
         };
 
-        combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
+        n4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <3 13>;
         };
 
-        combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LGUI>;
+        n5 {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <4 14>;
         };
 
-        combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RGUI>;
+        n6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <5 15>;
+        };
+
+        n7 {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <6 16>;
+        };
+
+        n8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <7 17>;
+        };
+
+        n9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <8 18>;
+        };
+
+        n0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <9 19>;
+        };
+
+        l-enter {
+            bindings = <&kp ENTER>;
+            key-positions = <13 12>;
+        };
+
+        r-enter {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17>;
+        };
+
+        l-gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <23 12>;
+        };
+
+        r-gui {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <26 17>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            label = "NEW_MACRO";
+            #binding-cells = <0>;
+            bindings =
+                <&none>,
+                <&macro_tap>,
+                <&kp>;
         };
     };
 
