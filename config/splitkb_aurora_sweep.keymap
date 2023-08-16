@@ -24,17 +24,17 @@
 
         n1 {
             bindings = <&kp NUMBER_1>;
-            key-positions = <0 10>;
+            key-positions = <5 6>;
         };
 
         n2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <1 11>;
+            key-positions = <15 16>;
         };
 
         n3 {
             bindings = <&kp NUMBER_3>;
-            key-positions = <2 12>;
+            key-positions = <25 26>;
         };
 
         n4 {
@@ -49,7 +49,7 @@
 
         n6 {
             bindings = <&kp NUMBER_6>;
-            key-positions = <5 15>;
+            key-positions = <>;
         };
 
         n7 {
@@ -164,12 +164,12 @@
 
         open-angle {
             bindings = <&kp DE_LESS_THAN>;
-            key-positions = <23 24>;
+            key-positions = <25 16>;
         };
 
         close-angle {
             bindings = <&kp DE_GREATER_THAN>;
-            key-positions = <25 26>;
+            key-positions = <25 16 32>;
         };
 
         backslash {
@@ -184,17 +184,27 @@
 
         t {
             bindings = <&kp T>;
-            key-positions = <5 6>;
+            key-positions = <5 7>;
         };
 
         g {
             bindings = <&kp G>;
-            key-positions = <15 16>;
+            key-positions = <15 17>;
         };
 
         b {
             bindings = <&kp B>;
-            key-positions = <25 26>;
+            key-positions = <25 27>;
+        };
+
+        to1 {
+            bindings = <&to 1>;
+            key-positions = <5 15>;
+        };
+
+        space {
+            bindings = <&kp DE_SPACE>;
+            key-positions = <25 15>;
         };
     };
 
@@ -206,10 +216,10 @@
 
         default_layer {
             bindings = <
-   &kp Q  &kp W  &kp E      &kp R           &kp T  &kp DE_Z             &kp U      &kp I    &kp O            &kp P
-   &kp A  &kp S  &kp D      &kp F           &kp G     &kp H             &kp J      &kp K    &kp L  &kp DE_A_UMLAUT
-&kp DE_Y  &kp X  &kp C      &kp V           &kp B     &kp N             &kp M  &kp COMMA  &kp DOT        &kp MINUS
-                        &kp SPACE  &sk LEFT_SHIFT     &mo 1  &kp LEFT_CONTROL
+   &kp Q  &kp W  &kp E      &kp R           &kp T    &kp DE_Z             &kp U      &kp I    &kp O            &kp P
+   &kp A  &kp S  &kp D      &kp F           &kp G       &kp H             &kp J      &kp K    &kp L  &kp DE_A_UMLAUT
+&kp DE_Y  &kp X  &kp C      &kp V           &kp B       &kp N             &kp M  &kp COMMA  &kp DOT        &kp MINUS
+                        &kp SPACE  &sk LEFT_SHIFT  &kp LSHIFT  &kp LEFT_CONTROL
             >;
         };
 
