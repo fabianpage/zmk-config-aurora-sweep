@@ -91,6 +91,86 @@
             bindings = <&kp RIGHT_GUI>;
             key-positions = <26 17>;
         };
+
+        l-backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <3 2>;
+        };
+
+        r-backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 7>;
+        };
+
+        l-esc {
+            bindings = <&kp ESC>;
+            key-positions = <11 12 13>;
+        };
+
+        r-esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 17 18>;
+        };
+
+        l-alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <13 2>;
+        };
+
+        r-alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <16 7>;
+        };
+
+        l-tap {
+            bindings = <&kp TAB>;
+            key-positions = <3 14>;
+        };
+
+        r-tap {
+            bindings = <&kp TAB>;
+            key-positions = <15 6>;
+        };
+
+        open-square {
+            bindings = <&kp DE_LEFT_BRACKET>;
+            key-positions = <20 21>;
+        };
+
+        close-square {
+            bindings = <&kp DE_RIGHT_BRACKET>;
+            key-positions = <29 28>;
+        };
+
+        open-bracket {
+            bindings = <&kp DE_LEFT_PARENTHESIS>;
+            key-positions = <21 22>;
+        };
+
+        close-bracket {
+            bindings = <&kp DE_RIGHT_PARENTHESIS>;
+            key-positions = <28 27>;
+        };
+
+        open-curly {
+            bindings = <&kp DE_LEFT_BRACE>;
+            key-positions = <22 23>;
+        };
+
+        close-curly {
+            bindings = <&kp DE_RIGHT_BRACE>;
+            key-positions = <26 27>;
+        };
+
+        open-angle {
+            bindings = <&kp DE_LESS_THAN>;
+            key-positions = <23 24>;
+        };
+
+        close-angle {
+            bindings = <&kp DE_GREATER_THAN>;
+            key-positions = <25 26>;
+        };
     };
 
     macros {
