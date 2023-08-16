@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include "keys_de_swiss.h"
 
 &mt {
     //  flavor = "tap-preferred";
