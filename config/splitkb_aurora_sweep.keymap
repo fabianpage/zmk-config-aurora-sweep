@@ -163,7 +163,7 @@
         };
 
         open-angle {
-            bindings = <&kp DE_LESS_THAN>;
+            bindings = <&brace>;
             key-positions = <25 16>;
         };
 
