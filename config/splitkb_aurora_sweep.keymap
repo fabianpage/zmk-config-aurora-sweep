@@ -181,6 +181,21 @@
             bindings = <&kp DE_SLASH>;
             key-positions = <8 9>;
         };
+
+        t {
+            bindings = <&kp T>;
+            key-positions = <5 6>;
+        };
+
+        g {
+            bindings = <&kp G>;
+            key-positions = <15 16>;
+        };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <25 26>;
+        };
     };
 
     macros {
