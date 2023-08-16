@@ -85,7 +85,7 @@
   &bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &kp PRCT   &kp CRRT      &kp AMPS  &kp KMLT  &kp LPRN   &kp RPRN
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLN  &kp SCLN  &kp MINUS  &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
   &sys_reset   &bootloader      &kp LBKT  &kp RBKT  &kp BSLH  &kp UNDER      &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT
-                                             &mo 0  &kp LCTL    &kp SPC         &mo 2
+                                             &mo 0  &kp LCTL      &to 0         &mo 2
             >;
         };
     };
