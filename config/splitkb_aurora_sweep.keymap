@@ -217,7 +217,7 @@
             key-positions = <7 9>;
         };
 
-        new_combo {
+        ae {
             bindings = <&shift_ae>;
             key-positions = <28 29>;
         };
