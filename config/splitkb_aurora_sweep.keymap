@@ -224,9 +224,12 @@
             label = "CAPS_AE";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap &kp CAPSLOCK>,
-                <&macro_tap &kp DE_A_UMLAUT>,
-                <&macro_tap &kp CAPSLOCK>;
+                <&macro_tap>,
+                <&kp CAPSLOCK>,
+                <&macro_tap>,
+                <&kp DE_A_UMLAUT>,
+                <&macro_tap>,
+                <&kp CAPSLOCK>;
         };
     };
 
