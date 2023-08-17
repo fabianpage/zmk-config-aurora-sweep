@@ -225,7 +225,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp CAPSLOCK &kp DE_A_UMLAUT>,
+                <&kp CAPSLOCK>,
+                <&macro_tap>,
+                <&kp DE_A_UMLAUT>,
                 <&macro_release>,
                 <&kp CAPSLOCK>;
         };
