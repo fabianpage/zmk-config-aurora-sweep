@@ -209,6 +209,16 @@
     };
 
     macros {
+        caps_ae: caps_ae {
+            compatible = "zmk,behavior-macro";
+            label = "CAPS_AE";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp CAPSLOCK &kp DE_A_UMLAUT>,
+                <&macro_release>,
+                <&kp CAPSLOCK>;
+        };
     };
 
     behaviors {
