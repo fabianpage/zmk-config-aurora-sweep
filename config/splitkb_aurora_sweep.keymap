@@ -79,7 +79,7 @@
 
         r-enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 19>;
+            key-positions = <26 28>;
         };
 
         l-gui {
@@ -99,7 +99,7 @@
 
         r-backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <6 9>;
+            key-positions = <6 8>;
         };
 
         l-esc {
@@ -199,7 +199,7 @@
 
         space {
             bindings = <&kp DE_SPACE>;
-            key-positions = <26 29>;
+            key-positions = <16 18>;
         };
 
         left-bootloader {
