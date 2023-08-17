@@ -254,6 +254,26 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        shift_oe: shift_oe {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SHIFT_OE";
+            bindings =
+                <&kp DE_O_UMLAUT>,
+                <&caps_ae>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        shift_ue: shift_ue {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SHIFT_UE";
+            bindings =
+                <&kp DE_U_UMLAUT>,
+                <&caps_ae>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
         n1_f1: n1_f1 {
             compatible = "zmk,behavior-mod-morph";
             label = "N1_F1";
@@ -270,6 +290,86 @@
             bindings =
                 <&kp NUMBER_2>,
                 <&kp F2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n3_f3: n3_f3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N3_F3";
+            bindings =
+                <&kp NUMBER_3>,
+                <&kp F3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n4_f4: n4_f4 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N4_F4";
+            bindings =
+                <&kp NUMBER_4>,
+                <&kp F4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n5_f5: n5_f5 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N5_F5";
+            bindings =
+                <&kp NUMBER_5>,
+                <&kp F5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n6_f6: n6_f6 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N6_F6";
+            bindings =
+                <&kp NUMBER_6>,
+                <&kp F6>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n7_f7: n7_f7 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N7_F7";
+            bindings =
+                <&kp NUMBER_7>,
+                <&kp F7>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n8_f8: n8_f8 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N8_F8";
+            bindings =
+                <&kp NUMBER_8>,
+                <&kp F8>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n9_f9: n9_f9 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N9_F9";
+            bindings =
+                <&kp NUMBER_9>,
+                <&kp F9>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n0_f0: n0_f0 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N0_F0";
+            bindings =
+                <&kp NUMBER_0>,
+                <&kp F0>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
