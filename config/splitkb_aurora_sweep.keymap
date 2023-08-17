@@ -244,6 +244,16 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        shift_ae: shift_ae {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SHIFT_AE";
+            bindings =
+                <&kp DE_A_UMLAUT>,
+                <&caps_ae>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
