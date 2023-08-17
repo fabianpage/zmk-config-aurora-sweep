@@ -33,42 +33,42 @@
         };
 
         n3 {
-            bindings = <&kp NUMBER_3>;
+            bindings = <&n3_f3>;
             key-positions = <>;
         };
 
         n4 {
-            bindings = <&kp NUMBER_4>;
+            bindings = <&n4_f4>;
             key-positions = <11 12>;
         };
 
         n5 {
-            bindings = <&kp NUMBER_5>;
+            bindings = <&n5_f5>;
             key-positions = <3 21>;
         };
 
         n6 {
-            bindings = <&kp NUMBER_6>;
+            bindings = <&n6_f6>;
             key-positions = <13 21>;
         };
 
         n7 {
-            bindings = <&kp NUMBER_7>;
+            bindings = <&n7_f7>;
             key-positions = <1 22>;
         };
 
         n8 {
-            bindings = <&kp NUMBER_8>;
+            bindings = <&n8_f8>;
             key-positions = <10 13>;
         };
 
         n9 {
-            bindings = <&kp NUMBER_9>;
+            bindings = <&n9_f9>;
             key-positions = <12 21>;
         };
 
         n0 {
-            bindings = <&kp NUMBER_0>;
+            bindings = <&n0_f0>;
             key-positions = <10 13>;
         };
 
