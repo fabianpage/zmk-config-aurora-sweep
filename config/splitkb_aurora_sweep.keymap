@@ -221,6 +221,26 @@
             bindings = <&shift_ae>;
             key-positions = <28 29>;
         };
+
+        angled_bracket {
+            bindings = <&angle_bracket>;
+            key-positions = <16 8>;
+        };
+
+        curly_bracket {
+            bindings = <&curly_bracket>;
+            key-positions = <6 18>;
+        };
+
+        round_bracket {
+            bindings = <&round_bracket>;
+            key-positions = <16 28>;
+        };
+
+        new_combo {
+            bindings = <&square_bracket>;
+            key-positions = <26 18>;
+        };
     };
 
     macros {
