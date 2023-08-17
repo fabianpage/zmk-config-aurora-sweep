@@ -254,6 +254,26 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        n1_f1: n1_f1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N1_F1";
+            bindings =
+                <&kp NUMBER_1>,
+                <&kp F1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        n2_f2: n2_f2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N2_F2";
+            bindings =
+                <&kp NUMBER_2>,
+                <&kp F2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
