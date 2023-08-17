@@ -109,7 +109,7 @@
 
         r-esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <18 19>;
+            key-positions = <19 17>;
         };
 
         l-alt {
@@ -139,7 +139,7 @@
 
         close-square {
             bindings = <&kp DE_RIGHT_BRACKET>;
-            key-positions = <29 28>;
+            key-positions = <>;
         };
 
         open-bracket {
@@ -149,7 +149,7 @@
 
         close-bracket {
             bindings = <&kp DE_RIGHT_PARENTHESIS>;
-            key-positions = <28 27>;
+            key-positions = <>;
         };
 
         open-curly {
@@ -159,17 +159,17 @@
 
         close-curly {
             bindings = <&kp DE_RIGHT_BRACE>;
-            key-positions = <26 27>;
+            key-positions = <>;
         };
 
         open-angle {
             bindings = <&brace>;
-            key-positions = <25 16>;
+            key-positions = <>;
         };
 
         close-angle {
             bindings = <&kp DE_GREATER_THAN>;
-            key-positions = <25 16 32>;
+            key-positions = <32>;
         };
 
         backslash {
@@ -179,22 +179,17 @@
 
         frontslash {
             bindings = <&kp DE_SLASH>;
-            key-positions = <8 9>;
-        };
-
-        t {
-            bindings = <&kp T>;
-            key-positions = <5 7>;
+            key-positions = <>;
         };
 
         g {
             bindings = <&kp G>;
-            key-positions = <15 17>;
+            key-positions = <15 16>;
         };
 
         b {
             bindings = <&kp B>;
-            key-positions = <25 27>;
+            key-positions = <25 26>;
         };
 
         to1 {
@@ -215,6 +210,21 @@
         right-bootloader {
             bindings = <&bootloader>;
             key-positions = <9 18 27>;
+        };
+
+        r {
+            bindings = <&kp R>;
+            key-positions = <6 7>;
+        };
+
+        f {
+            bindings = <&kp F>;
+            key-positions = <16 17>;
+        };
+
+        v {
+            bindings = <&kp V>;
+            key-positions = <26 27>;
         };
     };
 
@@ -261,9 +271,9 @@
 
         default_layer {
             bindings = <
-   &kp Q  &kp W  &kp E      &kp R           &kp T    &kp DE_Z             &kp U  &kp I    &kp O        &kp P
-   &kp A  &kp S  &kp D      &kp F           &kp G       &kp H             &kp J  &kp K    &kp L  &key_repeat
-&kp DE_Y  &kp X  &kp C      &kp V           &kp B       &kp N             &kp M  &kp I  &kp DOT    &shift_ae
+   &kp Q  &kp W  &kp E      &kp R           &kp T    &kp DE_Z             &kp U  &kp E  &kp O      &kp P
+   &kp A  &kp S  &kp D      &kp F           &kp G       &kp H             &kp J  &kp K  &kp L  &shift_ae
+&kp DE_Y  &kp X  &kp C      &kp V           &kp B       &kp N             &kp M  &kp I  &kp S      &mo 1
                         &kp SPACE  &sk LEFT_SHIFT  &kp LSHIFT  &kp LEFT_CONTROL
             >;
         };
