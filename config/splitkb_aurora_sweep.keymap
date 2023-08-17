@@ -206,6 +206,16 @@
             bindings = <&kp DE_SPACE>;
             key-positions = <26 29>;
         };
+
+        left-bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 11 22>;
+        };
+
+        right-bootloader {
+            bindings = <&bootloader>;
+            key-positions = <9 18 27>;
+        };
     };
 
     macros {
@@ -239,9 +249,9 @@
 
         default_layer {
             bindings = <
-   &kp Q  &kp W  &kp E      &kp R           &kp T    &kp DE_Z             &kp U      &kp I    &kp O            &kp P
-   &kp A  &kp S  &kp D      &kp F           &kp G       &kp H             &kp J      &kp K    &kp L  &kp DE_A_UMLAUT
-&kp DE_Y  &kp X  &kp C      &kp V           &kp B       &kp N             &kp M  &kp COMMA  &kp DOT        &kp MINUS
+   &kp Q  &kp W  &kp E      &kp R           &kp T    &kp DE_Z             &kp U      &kp I    &kp O      &kp P
+   &kp A  &kp S  &kp D      &kp F           &kp G       &kp H             &kp J      &kp K    &kp L   &caps_ae
+&kp DE_Y  &kp X  &kp C      &kp V           &kp B       &kp N             &kp M  &kp COMMA  &kp DOT  &kp MINUS
                         &kp SPACE  &sk LEFT_SHIFT  &kp LSHIFT  &kp LEFT_CONTROL
             >;
         };
