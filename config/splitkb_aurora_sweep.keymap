@@ -178,7 +178,7 @@
         };
 
         oe {
-            bindings = <&kp DE_O_UMLAUT>;
+            bindings = <&shift_oe>;
             key-positions = <5 6>;
         };
 
@@ -215,6 +215,11 @@
         q {
             bindings = <&kp Q>;
             key-positions = <7 9>;
+        };
+
+        new_combo {
+            bindings = <&shift_ae>;
+            key-positions = <28 29>;
         };
     };
 
