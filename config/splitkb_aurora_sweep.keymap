@@ -23,12 +23,12 @@
         compatible = "zmk,combos";
 
         n1 {
-            bindings = <&kp NUMBER_1>;
+            bindings = <&n1_f1>;
             key-positions = <>;
         };
 
         n2 {
-            bindings = <&kp NUMBER_2>;
+            bindings = <&n2_f2>;
             key-positions = <>;
         };
 
