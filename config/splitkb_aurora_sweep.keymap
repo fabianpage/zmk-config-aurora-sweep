@@ -224,9 +224,12 @@
             label = "CAPS_AE";
             #binding-cells = <0>;
             bindings =
-                <&macro_press &kp CAPSLOCK>,
-                <&macro_press &kp DE_A_UMLAUT>,
-                <&macro_press &kp CAPSLOCK>;
+                <&macro_press>,
+                <&kp CAPSLOCK>,
+                <&macro_press>,
+                <&kp DE_A_UMLAUT>,
+                <&macro_press>,
+                <&kp CAPSLOCK>;
         };
     };
 
@@ -248,9 +251,9 @@
 
         default_layer {
             bindings = <
-   &kp Q  &kp W  &kp E      &kp R           &kp T    &kp DE_Z             &kp U      &kp I    &kp O        &kp P
-   &kp A  &kp S  &kp D      &kp F           &kp G       &kp H             &kp J      &kp K    &kp L  &key_repeat
-&kp DE_Y  &kp X  &kp C      &kp V           &kp B       &kp N             &kp M  &kp COMMA  &kp DOT     &caps_ae
+   &kp Q  &kp W  &kp E      &kp R           &kp T    &kp DE_Z             &kp U  &kp I    &kp O        &kp P
+   &kp A  &kp S  &kp D      &kp F           &kp G       &kp H             &kp J  &kp K    &kp L  &key_repeat
+&kp DE_Y  &kp X  &kp C      &kp V           &kp B       &kp N             &kp M  &kp I  &kp DOT     &caps_ae
                         &kp SPACE  &sk LEFT_SHIFT  &kp LSHIFT  &kp LEFT_CONTROL
             >;
         };
