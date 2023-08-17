@@ -252,9 +252,19 @@
             key-positions = <8 9>;
         };
 
-        new_combo {
+        x {
             bindings = <&kp X>;
             key-positions = <18 19>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <5 7>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <7 9>;
         };
     };
 
