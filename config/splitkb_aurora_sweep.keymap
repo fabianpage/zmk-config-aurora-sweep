@@ -183,7 +183,7 @@
         };
 
         ae {
-            bindings = <&caps_ae>;
+            bindings = <&shift_ae>;
             key-positions = <7 8>;
         };
 
@@ -217,8 +217,8 @@
             key-positions = <7 9>;
         };
 
-        ae {
-            bindings = <&shift_ae>;
+        ue {
+            bindings = <&shift_ue>;
             key-positions = <28 29>;
         };
 
