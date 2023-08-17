@@ -24,12 +24,12 @@
 
         n1 {
             bindings = <&kp NUMBER_1>;
-            key-positions = <15 16>;
+            key-positions = <>;
         };
 
         n2 {
             bindings = <&kp NUMBER_2>;
-            key-positions = <16 17>;
+            key-positions = <>;
         };
 
         n3 {
