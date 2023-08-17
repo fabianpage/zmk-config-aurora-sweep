@@ -224,8 +224,9 @@
             label = "CAPS_AE";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp CAPSLOCK &kp DE_A_UMLAUT &kp CAPSLOCK>;
+                <&macro_press &kp CAPSLOCK>,
+                <&macro_press &kp DE_A_UMLAUT>,
+                <&macro_press &kp CAPSLOCK>;
         };
     };
 
