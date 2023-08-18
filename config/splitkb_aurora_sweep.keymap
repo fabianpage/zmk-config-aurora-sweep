@@ -24,52 +24,52 @@
 
         n1 {
             bindings = <&n1_f1>;
-            key-positions = <5 15>;
+            key-positions = <>;
         };
 
         n2 {
             bindings = <&n2_f2>;
-            key-positions = <6 16>;
+            key-positions = <>;
         };
 
         n3 {
             bindings = <&n3_f3>;
-            key-positions = <7 17>;
+            key-positions = <>;
         };
 
         n4 {
             bindings = <&n4_f4>;
-            key-positions = <11 12 8 18>;
+            key-positions = <11 12>;
         };
 
         n5 {
             bindings = <&n5_f5>;
-            key-positions = <3 21 9 19>;
+            key-positions = <3 21>;
         };
 
         n6 {
             bindings = <&n6_f6>;
-            key-positions = <13 21 15 25>;
+            key-positions = <13 21>;
         };
 
         n7 {
             bindings = <&n7_f7>;
-            key-positions = <1 22 16 26>;
+            key-positions = <1 22>;
         };
 
         n8 {
             bindings = <&n8_f8>;
-            key-positions = <10 13 17 27>;
+            key-positions = <10 13>;
         };
 
         n9 {
             bindings = <&n9_f9>;
-            key-positions = <12 21 18 28>;
+            key-positions = <12 21>;
         };
 
         n0 {
             bindings = <&n0_f10>;
-            key-positions = <10 13 19 29>;
+            key-positions = <10 13>;
         };
 
         l-enter {
@@ -89,7 +89,7 @@
 
         r-gui {
             bindings = <&kp RIGHT_GUI>;
-            key-positions = <26 17>;
+            key-positions = <>;
         };
 
         l-backspace {
@@ -109,7 +109,7 @@
 
         r-esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <19 17>;
+            key-positions = <>;
         };
 
         l-alt {
@@ -119,7 +119,7 @@
 
         r-alt {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <16 7>;
+            key-positions = <>;
         };
 
         l-tap {
@@ -129,7 +129,7 @@
 
         r-tap {
             bindings = <&kp TAB>;
-            key-positions = <15 6>;
+            key-positions = <>;
         };
 
         g {
@@ -144,7 +144,7 @@
 
         to1 {
             bindings = <&mo 1>;
-            key-positions = <5 15>;
+            key-positions = <>;
         };
 
         space {
@@ -446,10 +446,10 @@
 
         default_layer {
             bindings = <
-   &kp Q  &kp W  &kp E      &kp R           &kp T            &kp T             &kp U  &kp E  &kp O  &kp P
-   &kp A  &kp S  &kp D      &kp F           &kp G            &kp H             &kp J  &kp K  &kp L  &kp A
-&kp DE_Y  &kp X  &kp C      &kp V           &kp B            &kp N             &kp M  &kp I  &kp S  &mo 1
-                        &kp SPACE  &sk LEFT_SHIFT  &sk RIGHT_SHIFT  &kp LEFT_CONTROL
+ &angle_bracket  &curly_bracket  &kp E      &kp R           &kp T            &kp T             &kp U  &kp E  &kp O  &kp P
+&square_bracket  &round_bracket  &kp D      &kp F           &kp G            &kp H             &kp J  &kp K  &kp L  &kp A
+         &n1_f1           &kp X  &kp C      &kp V           &kp B            &kp N             &kp M  &kp I  &kp S  &mo 1
+                                        &kp SPACE  &sk LEFT_SHIFT  &sk RIGHT_SHIFT  &kp LEFT_CONTROL
             >;
         };
 
