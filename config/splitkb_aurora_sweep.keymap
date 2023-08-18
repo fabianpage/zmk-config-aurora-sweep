@@ -245,7 +245,7 @@
 
         dot {
             bindings = <&kp DE_PERIOD>;
-            key-positions = <17 19>;
+            key-positions = <17 9>;
         };
 
         comma {
@@ -255,7 +255,7 @@
 
         minus {
             bindings = <&kp DE_MINUS>;
-            key-positions = <27 29>;
+            key-positions = <27 19>;
         };
     };
 
