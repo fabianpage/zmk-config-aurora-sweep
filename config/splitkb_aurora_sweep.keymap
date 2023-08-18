@@ -242,6 +242,21 @@
             bindings = <&square_bracket>;
             key-positions = <26 18>;
         };
+
+        dot {
+            bindings = <&kp DE_PERIOD>;
+            key-positions = <17 19>;
+        };
+
+        comma {
+            bindings = <&kp DE_COMMA>;
+            key-positions = <25 27>;
+        };
+
+        minus {
+            bindings = <&kp DE_MINUS>;
+            key-positions = <27 29>;
+        };
     };
 
     macros {
