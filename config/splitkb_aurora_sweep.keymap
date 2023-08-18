@@ -404,8 +404,8 @@
             compatible = "zmk,behavior-mod-morph";
             label = "ANGLE_BRACKET";
             bindings =
-                <&kp LT>,
-                <&kp GT>;
+                <&kp DE_LT>,
+                <&kp DE_GT>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -414,8 +414,8 @@
             compatible = "zmk,behavior-mod-morph";
             label = "SQUARE_BRACKET";
             bindings =
-                <&kp LBKT>,
-                <&kp RBKT>;
+                <&kp DE_LBKT>,
+                <&kp DE_RBKT>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -424,8 +424,8 @@
             compatible = "zmk,behavior-mod-morph";
             label = "CURLY_BRACKET";
             bindings =
-                <&kp LBRC>,
-                <&kp RBRC>;
+                <&kp DE_LBRC>,
+                <&kp DE_RBRC>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -434,8 +434,8 @@
             compatible = "zmk,behavior-mod-morph";
             label = "ROUND_BRACKET";
             bindings =
-                <&kp LPAR>,
-                <&kp RPAR>;
+                <&kp DE_LPAR>,
+                <&kp DE_RPAR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
