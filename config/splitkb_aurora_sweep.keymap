@@ -257,6 +257,30 @@
                 <&macro_tap>,
                 <&kp CAPSLOCK>;
         };
+        caps_oe: caps_oe {
+            compatible = "zmk,behavior-macro";
+            label = "CAPS_OE";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp CAPSLOCK>,
+                <&macro_tap>,
+                <&kp DE_O_UMLAUT>,
+                <&macro_tap>,
+                <&kp CAPSLOCK>;
+        };
+        caps_ue: caps_ue {
+            compatible = "zmk,behavior-macro";
+            label = "CAPS_UE";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp CAPSLOCK>,
+                <&macro_tap>,
+                <&kp DE_U_UMLAUT>,
+                <&macro_tap>,
+                <&kp CAPSLOCK>;
+        };
     };
 
     behaviors {
@@ -285,7 +309,7 @@
             label = "SHIFT_OE";
             bindings =
                 <&kp DE_O_UMLAUT>,
-                <&caps_ae>;
+                <&caps_oe>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -295,7 +319,7 @@
             label = "SHIFT_UE";
             bindings =
                 <&kp DE_U_UMLAUT>,
-                <&caps_ae>;
+                <&caps_ue>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
