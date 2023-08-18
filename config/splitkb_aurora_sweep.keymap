@@ -237,7 +237,7 @@
             key-positions = <16 28>;
         };
 
-        new_combo {
+        square_bracket {
             bindings = <&square_bracket>;
             key-positions = <26 18>;
         };
