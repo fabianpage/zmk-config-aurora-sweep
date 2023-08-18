@@ -68,7 +68,7 @@
         };
 
         n0 {
-            bindings = <&n0_f0>;
+            bindings = <&n0_f10>;
             key-positions = <10 13 19 29>;
         };
 
@@ -389,12 +389,12 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        n0_f0: n0_f0 {
+        n0_f10: n0_f10 {
             compatible = "zmk,behavior-mod-morph";
-            label = "N0_F0";
+            label = "N0_F10";
             bindings =
                 <&kp NUMBER_0>,
-                <&kp F0>;
+                <&kp F10>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
