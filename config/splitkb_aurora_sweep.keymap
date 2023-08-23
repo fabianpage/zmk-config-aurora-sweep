@@ -500,18 +500,18 @@
 
         nav_nag {
             bindings = <
-&kp DE_GRAVE      &kp DE_AT  &kp DE_EQUAL  &kp DE_AMPERSAND  &kp DE_CARET  &kp DE_PERCENT  &kp DE_DOUBLE_QUOTES   &kp DE_PLUS           &kp NUM_9  &kp DE_U_UMLAUT
-    &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP           &kp END  &kp DE_TILDE  &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &kp DE_O_UMLAUT
-&kp DE_ACUTE          &to 2  &kp CAPSLOCK     &kp DE_DOLLAR   &kp DE_HASH   &kp DE_DEGREE   &kp DE_SINGLE_QUOTE  &kp DE_ASTRK  &kp DE_EXCLAMATION  &kp DE_QUESTION
-                                                      &mo 1      &kp LGUI        &kp RGUI                 &mo 2
+&kp DE_GRAVE      &kp DE_AT  &kp DE_EQUAL  &kp DE_AMPERSAND  &kp DE_CARET        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &kp DE_U_UMLAUT
+    &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP           &kp END  &kp DE_TILDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DE_O_UMLAUT
+&kp DE_ACUTE          &to 2  &kp CAPSLOCK     &kp DE_DOLLAR   &kp DE_HASH           &to 0        &kp LGUI       &kp TAB     &kp LEFT_ALT            &to 2
+                                                      &mo 1      &kp LGUI      &kp LSHIFT       &kp LCTRL
             >;
         };
 
         f_special {
             bindings = <
-  &bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT      &kp AMPS  &kp KMLT     &kp LPRN    &kp RPRN
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLN      &kp SCLN  &kp MINUS  &kp KP_EQUAL  &kp LBRC     &kp RBRC    &kp BKSP
-  &sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH  &kp UNDER      &kp LEFT  &kp DOWN  &bootloader  &sys_reset
+  &bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT      &kp AMPS  &kp KMLT     &kp LPRN  &kp RPRN
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLN      &kp SCLN  &kp MINUS  &kp KP_EQUAL  &kp LBRC     &kp RBRC  &kp BKSP
+  &sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH      &to 0      &kp LEFT  &kp DOWN  &bootloader     &to 2
                                              &mo 0      &kp LCTL      &to 0         &mo 2
             >;
         };
