@@ -509,9 +509,9 @@
 
         f_special {
             bindings = <
-  &bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT      &kp AMPS  &kp KMLT     &kp LPRN  &kp RPRN
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLN      &kp SCLN  &kp MINUS  &kp KP_EQUAL  &kp LBRC     &kp RBRC  &kp BKSP
-  &sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH      &to 0      &kp LEFT  &kp DOWN  &bootloader     &to 2
+  &bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp RPRN
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLN      &kp SCLN  &kp MINUS    &bt BT_PRV    &bt BT_NXT    &bt BT_CLR  &kp BKSP
+  &sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH      &to 0    &sys_reset      &kp DOWN   &bootloader     &to 2
                                              &mo 0      &kp LCTL      &to 0         &mo 2
             >;
         };
