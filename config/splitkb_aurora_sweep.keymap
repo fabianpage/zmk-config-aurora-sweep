@@ -180,7 +180,7 @@
 
         oe {
             bindings = <&shift_oe>;
-            key-positions = <5 6>;
+            key-positions = <27 18>;
         };
 
         ae {
@@ -200,27 +200,27 @@
 
         w {
             bindings = <&kp W>;
-            key-positions = <8 9>;
+            key-positions = <7 18>;
         };
 
         x {
             bindings = <&kp X>;
-            key-positions = <18 19>;
+            key-positions = <17 28>;
         };
 
         z {
             bindings = <&kp Z>;
-            key-positions = <15 16>;
+            key-positions = <6 5>;
         };
 
         q {
             bindings = <&kp Q>;
-            key-positions = <7 9>;
+            key-positions = <6 17>;
         };
 
         ue {
             bindings = <&shift_ue>;
-            key-positions = <28 29>;
+            key-positions = <15 6>;
         };
 
         angled_bracket {
@@ -260,7 +260,7 @@
 
         y {
             bindings = <&kp DE_Y>;
-            key-positions = <17 19>;
+            key-positions = <16 27>;
         };
     };
 
