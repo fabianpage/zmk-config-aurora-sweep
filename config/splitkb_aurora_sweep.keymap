@@ -110,7 +110,7 @@
 
         r-esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <>;
+            key-positions = <15 17>;
         };
 
         l-alt {
@@ -210,7 +210,7 @@
 
         z {
             bindings = <&kp Z>;
-            key-positions = <5 7>;
+            key-positions = <15 16>;
         };
 
         q {
@@ -256,6 +256,11 @@
         minus {
             bindings = <&kp DE_MINUS>;
             key-positions = <27 19>;
+        };
+
+        y {
+            bindings = <&kp DE_Y>;
+            key-positions = <17 19>;
         };
     };
 
