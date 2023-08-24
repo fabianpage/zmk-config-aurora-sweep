@@ -177,6 +177,26 @@
             bindings = <&kp DE_Q>;
             key-positions = <6 17>;
         };
+
+        eee33 {
+            bindings = <&none>;
+            key-positions = <7 18>;
+        };
+
+        w {
+            bindings = <&kp W>;
+            key-positions = <15 26>;
+        };
+
+        y {
+            bindings = <&kp DE_Y>;
+            key-positions = <16 27>;
+        };
+
+        x {
+            bindings = <&kp DE_X>;
+            key-positions = <17 28>;
+        };
     };
 
     macros {
