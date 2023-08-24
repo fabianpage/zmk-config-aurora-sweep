@@ -73,29 +73,29 @@
             key-positions = <19 29>;
         };
 
-        r-enter {
-            bindings = <&kp ENTER>;
-            key-positions = <26 28>;
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <15 17>;
         };
-
-        r-gui {
-            bindings = <&kp RIGHT_GUI>;
-            key-positions = <>;
-        };
-
-        r-backspace {
+	
+        backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <6 8>;
         };
 
-        r-esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <15 17>;
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <16 18>;
         };
 
-        r-tap {
-            bindings = <&kp TAB>;
-            key-positions = <25 16>;
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <26 28>;
+        };
+
+        z {
+            bindings = <&kp DE_Z>;
+            key-positions = <6 5>;
         };
 
         g {
@@ -106,11 +106,6 @@
         b {
             bindings = <&kp B>;
             key-positions = <25 26>;
-        };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <16 18>;
         };
 
         r {
@@ -128,11 +123,6 @@
             key-positions = <26 27>;
         };
 
-        oe {
-            bindings = <&shift_oe>;
-            key-positions = <27 18>;
-        };
-
         ae {
             bindings = <&shift_ae>;
             key-positions = <7 8>;
@@ -148,6 +138,46 @@
             key-positions = <27 28>;
         };
 
+        ue {
+            bindings = <&shift_ue>;
+            key-positions = <15 6>;
+        };
+
+        tap {
+            bindings = <&kp TAB>;
+            key-positions = <25 16>;
+        };
+
+        a {
+            bindings = <&kp A>;
+            key-positions = <>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <>;
+        };
+
+        d {
+            bindings = <&kp P>;
+            key-positions = <>;
+        };
+
+        oe {
+            bindings = <&shift_oe>;
+            key-positions = <27 18>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <6 17>;
+        };
+
+        y {
+            bindings = <&kp DE_Y>;
+            key-positions = <16 27>;
+        };
+
         w {
             bindings = <&kp W>;
             key-positions = <7 18>;
@@ -156,21 +186,6 @@
         x {
             bindings = <&kp X>;
             key-positions = <17 28>;
-        };
-
-        z {
-            bindings = <&kp DE_Z>;
-            key-positions = <6 5>;
-        };
-
-        q {
-            bindings = <&kp Q>;
-            key-positions = <6 17>;
-        };
-
-        ue {
-            bindings = <&shift_ue>;
-            key-positions = <15 6>;
         };
 
         angled_bracket {
@@ -206,11 +221,6 @@
         minus {
             bindings = <&kp DE_MINUS>;
             key-positions = <27 19>;
-        };
-
-        y {
-            bindings = <&kp DE_Y>;
-            key-positions = <16 27>;
         };
     };
 
