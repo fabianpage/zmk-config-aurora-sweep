@@ -145,14 +145,14 @@
 
         tap {
             bindings = <&kp TAB>;
-            key-positions = <26 17>;
+            key-positions = <16 7>;
             slow-release;
             timeout-ms = <200>;
         };
 
         a {
             bindings = <&kp DE_A>;
-            key-positions = <25 16>;
+            key-positions = <17 8>;
             timeout-ms = <200>;
         };
 
