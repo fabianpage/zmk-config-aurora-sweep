@@ -143,7 +143,7 @@
             key-positions = <15 6>;
         };
 
-        KPA {
+        a {
             bindings = <&kp DE_A>;
             key-positions = <16 7>;
         };
@@ -153,9 +153,19 @@
             key-positions = <17 8>;
         };
 
-        testcc {
-            bindings = <&kp DE_C>;
+        tab {
+            bindings = <&kp TAB>;
             key-positions = <25 16>;
+        };
+
+        p {
+            bindings = <&kp DE_P>;
+            key-positions = <26 17>;
+        };
+
+        test44 {
+            bindings = <&kp DE_G>;
+            key-positions = <27 18>;
         };
     };
 
