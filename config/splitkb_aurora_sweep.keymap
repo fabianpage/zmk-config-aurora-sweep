@@ -167,6 +167,16 @@
             bindings = <&kp DE_G>;
             key-positions = <27 18>;
         };
+
+        oe {
+            bindings = <&shift_oe>;
+            key-positions = <5 16>;
+        };
+
+        q {
+            bindings = <&kp DE_Q>;
+            key-positions = <6 17>;
+        };
     };
 
     macros {
