@@ -140,27 +140,27 @@
 
         ue {
             bindings = <&shift_ue>;
-            key-positions = <15 6 17>;
+            key-positions = <15 6>;
         };
 
         tap {
             bindings = <&kp TAB>;
-            key-positions = <25 16 27>;
+            key-positions = <25 16>;
         };
 
         a {
             bindings = <&kp A>;
-            key-positions = <16 7 18>;
+            key-positions = <16 7>;
         };
 
         p {
             bindings = <&kp P>;
-            key-positions = <26 17 28>;
+            key-positions = <26 17>;
         };
 
         oe {
             bindings = <&shift_oe>;
-            key-positions = <5 16 7>;
+            key-positions = <5 16>;
         };
 
         q {
@@ -170,12 +170,12 @@
 
         y {
             bindings = <&kp DE_Y>;
-            key-positions = <16 27 18>;
+            key-positions = <16 27>;
         };
 
         w {
             bindings = <&kp W>;
-            key-positions = <15 26 17>;
+            key-positions = <15 26>;
         };
 
         x {
@@ -185,37 +185,37 @@
 
         angled_bracket {
             bindings = <&angle_bracket>;
-            key-positions = <16 8>;
+            key-positions = <>;
         };
 
         curly_bracket {
             bindings = <&curly_bracket>;
-            key-positions = <6 18>;
+            key-positions = <>;
         };
 
         round_bracket {
             bindings = <&round_bracket>;
-            key-positions = <16 28>;
+            key-positions = <>;
         };
 
         square_bracket {
             bindings = <&square_bracket>;
-            key-positions = <26 18>;
+            key-positions = <>;
         };
 
         dot {
             bindings = <&kp DE_PERIOD>;
-            key-positions = <17 9>;
+            key-positions = <>;
         };
 
         comma {
             bindings = <&kp DE_COMMA>;
-            key-positions = <25 27>;
+            key-positions = <>;
         };
 
         minus {
             bindings = <&kp DE_MINUS>;
-            key-positions = <27 19>;
+            key-positions = <>;
         };
     };
 
