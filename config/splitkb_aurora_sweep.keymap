@@ -150,32 +150,32 @@
 
         a {
             bindings = <&kp DE_A>;
-            key-positions = <16 7>;
+            key-positions = <15 6>;
         };
 
         p {
             bindings = <&kp P>;
-            key-positions = <26 17>;
+            key-positions = <>;
         };
 
         oe {
             bindings = <&shift_oe>;
-            key-positions = <5 16>;
+            key-positions = <>;
         };
 
         q {
             bindings = <&kp Q>;
-            key-positions = <6 17>;
+            key-positions = <>;
         };
 
         y {
             bindings = <&kp DE_Y>;
-            key-positions = <16 27>;
+            key-positions = <>;
         };
 
         w {
             bindings = <&kp W>;
-            key-positions = <15 26>;
+            key-positions = <>;
         };
 
         x {
