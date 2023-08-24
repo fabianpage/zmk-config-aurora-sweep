@@ -145,17 +145,17 @@
 
         KPA {
             bindings = <&kp DE_A>;
-            key-positions = <26 17>;
+            key-positions = <16 7>;
         };
 
         testb {
             bindings = <&kp B>;
-            key-positions = <5 16>;
+            key-positions = <17 8>;
         };
 
         testcc {
             bindings = <&kp DE_C>;
-            key-positions = <6 17>;
+            key-positions = <25 16>;
         };
     };
 
