@@ -73,19 +73,9 @@
             key-positions = <19 29>;
         };
 
-        l-enter {
-            bindings = <&kp ENTER>;
-            key-positions = <13 12>;
-        };
-
         r-enter {
             bindings = <&kp ENTER>;
             key-positions = <26 28>;
-        };
-
-        l-gui {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <23 12>;
         };
 
         r-gui {
@@ -93,39 +83,14 @@
             key-positions = <>;
         };
 
-        l-backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <3 2>;
-        };
-
         r-backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <6 8>;
         };
 
-        l-esc {
-            bindings = <&kp ESC>;
-            key-positions = <11 10>;
-        };
-
         r-esc {
             bindings = <&kp ESCAPE>;
             key-positions = <15 17>;
-        };
-
-        l-alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <13 2>;
-        };
-
-        r-alt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <>;
-        };
-
-        l-tap {
-            bindings = <&kp TAB>;
-            key-positions = <3 14>;
         };
 
         r-tap {
@@ -143,24 +108,9 @@
             key-positions = <25 26>;
         };
 
-        to1 {
-            bindings = <&mo 1>;
-            key-positions = <>;
-        };
-
         space {
             bindings = <&kp SPACE>;
             key-positions = <16 18>;
-        };
-
-        left-bootloader {
-            bindings = <&bootloader>;
-            key-positions = <0 11 22>;
-        };
-
-        right-bootloader {
-            bindings = <&bootloader>;
-            key-positions = <9 18 27>;
         };
 
         r {
