@@ -140,27 +140,27 @@
 
         ue {
             bindings = <&shift_ue>;
-            key-positions = <15 6>;
+            key-positions = <15 6 17>;
         };
 
         tap {
             bindings = <&kp TAB>;
-            key-positions = <25 16>;
+            key-positions = <25 16 27>;
         };
 
         a {
             bindings = <&kp A>;
-            key-positions = <16 7>;
+            key-positions = <16 7 18>;
         };
 
         p {
             bindings = <&kp P>;
-            key-positions = <26 17>;
+            key-positions = <26 17 28>;
         };
 
         oe {
             bindings = <&shift_oe>;
-            key-positions = <27 18>;
+            key-positions = <5 16 7>;
         };
 
         q {
@@ -170,17 +170,17 @@
 
         y {
             bindings = <&kp DE_Y>;
-            key-positions = <16 27>;
+            key-positions = <16 27 18>;
         };
 
         w {
             bindings = <&kp W>;
-            key-positions = <7 18>;
+            key-positions = <15 26 17>;
         };
 
         x {
             bindings = <&kp X>;
-            key-positions = <17 28>;
+            key-positions = <>;
         };
 
         angled_bracket {
