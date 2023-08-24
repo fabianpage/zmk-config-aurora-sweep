@@ -149,7 +149,7 @@
         };
 
         a {
-            bindings = <&kp A>;
+            bindings = <&kp DE_A>;
             key-positions = <16 7>;
         };
 
