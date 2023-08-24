@@ -180,7 +180,7 @@
 
         x {
             bindings = <&kp X>;
-            key-positions = <>;
+            key-positions = <5 7>;
         };
 
         angled_bracket {
