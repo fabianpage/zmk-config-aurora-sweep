@@ -143,82 +143,9 @@
             key-positions = <15 6>;
         };
 
-        tap {
-            bindings = <&kp TAB>;
-            key-positions = <16 7>;
-            slow-release;
-            timeout-ms = <200>;
-        };
-
-        a {
+        KPA {
             bindings = <&kp DE_A>;
-            key-positions = <17 8>;
-            timeout-ms = <200>;
-        };
-
-        p {
-            bindings = <&kp P>;
-            key-positions = <>;
-        };
-
-        oe {
-            bindings = <&shift_oe>;
-            key-positions = <>;
-        };
-
-        q {
-            bindings = <&kp Q>;
-            key-positions = <>;
-        };
-
-        y {
-            bindings = <&kp DE_Y>;
-            key-positions = <>;
-        };
-
-        w {
-            bindings = <&kp W>;
-            key-positions = <>;
-        };
-
-        x {
-            bindings = <&kp X>;
-            key-positions = <5 7>;
-        };
-
-        angled_bracket {
-            bindings = <&angle_bracket>;
-            key-positions = <>;
-        };
-
-        curly_bracket {
-            bindings = <&curly_bracket>;
-            key-positions = <>;
-        };
-
-        round_bracket {
-            bindings = <&round_bracket>;
-            key-positions = <>;
-        };
-
-        square_bracket {
-            bindings = <&square_bracket>;
-            key-positions = <>;
-        };
-
-        dot {
-            bindings = <&kp DE_PERIOD>;
-            key-positions = <>;
-        };
-
-        comma {
-            bindings = <&kp DE_COMMA>;
-            key-positions = <>;
-        };
-
-        minus {
-            bindings = <&kp DE_MINUS>;
-            key-positions = <>;
+            key-positions = <16 7>;
         };
     };
 
