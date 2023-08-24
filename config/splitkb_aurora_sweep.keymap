@@ -40,37 +40,37 @@
 
         n4 {
             bindings = <&n4_f4>;
-            key-positions = <11 12 8 18>;
+            key-positions = <8 18>;
         };
 
         n5 {
             bindings = <&n5_f5>;
-            key-positions = <3 21 9 19>;
+            key-positions = <9 19>;
         };
 
         n6 {
             bindings = <&n6_f6>;
-            key-positions = <13 21 15 25>;
+            key-positions = <15 25>;
         };
 
         n7 {
             bindings = <&n7_f7>;
-            key-positions = <1 22 16 26>;
+            key-positions = <16 26>;
         };
 
         n8 {
             bindings = <&n8_f8>;
-            key-positions = <10 13 17 27>;
+            key-positions = <17 27>;
         };
 
         n9 {
             bindings = <&n9_f9>;
-            key-positions = <12 21 18 28>;
+            key-positions = <18 28>;
         };
 
         n0 {
             bindings = <&n0_f10>;
-            key-positions = <10 13 19 29>;
+            key-positions = <19 29>;
         };
 
         l-enter {
@@ -130,7 +130,7 @@
 
         r-tap {
             bindings = <&kp TAB>;
-            key-positions = <>;
+            key-positions = <25 16>;
         };
 
         g {
@@ -209,7 +209,7 @@
         };
 
         z {
-            bindings = <&kp Z>;
+            bindings = <&kp DE_Z>;
             key-positions = <6 5>;
         };
 
