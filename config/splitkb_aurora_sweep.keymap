@@ -575,9 +575,9 @@
 
         nav_nag {
             bindings = <
-&kp DE_GRAVE      &kp DE_AT  &kp DE_EQUAL  &kp DE_AMPERSAND  &kp DE_CARET        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &kp DE_U_UMLAUT
-    &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP           &kp END  &kp DE_TILDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DE_O_UMLAUT
-&kp DE_ACUTE          &to 2  &kp CAPSLOCK     &kp DE_DOLLAR   &kp DE_HASH           &to 0        &kp LGUI       &kp TAB     &kp LEFT_ALT            &to 2
+&kp DE_GRAVE      &kp DE_AT  &kp DE_EQUAL  &kp DE_AMPERSAND  &kp DE_CARET        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &trans
+    &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP           &kp END  &kp DE_TILDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp DE_ACUTE          &to 2  &kp CAPSLOCK     &kp DE_DOLLAR   &kp DE_HASH           &to 0        &kp LGUI       &kp TAB     &kp LEFT_ALT   &to 2
                                                       &mo 1      &kp LGUI      &kp LSHIFT       &kp LCTRL
             >;
         };
