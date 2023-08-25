@@ -73,9 +73,19 @@
             key-positions = <19 29>;
         };
 
+        es3c {
+            bindings = <&kp ESCAPE>;
+            key-positions = <5 7>;
+        };
+
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <15 17>;
+        };
+
+        esc3 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <25 27>;
         };
 
         backspace {
