@@ -203,7 +203,7 @@
             key-positions = <16 27>;
         };
 
-        x {
+        adsf {
             bindings = <&kp DE_X>;
             key-positions = <17 28>;
         };
