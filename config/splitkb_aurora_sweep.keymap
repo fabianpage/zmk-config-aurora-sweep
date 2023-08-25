@@ -178,8 +178,8 @@
             key-positions = <6 17>;
         };
 
-        eee33 {
-            bindings = <&none>;
+        komma {
+            bindings = <&kp DE_COMMA>;
             key-positions = <7 18>;
         };
 
@@ -196,6 +196,16 @@
         x {
             bindings = <&kp DE_X>;
             key-positions = <17 28>;
+        };
+
+        test7 {
+            bindings = <&kp DE_COMMA>;
+            key-positions = <15 7>;
+        };
+
+        angle-bracket {
+            bindings = <&angle_bracket>;
+            key-positions = <16 8>;
         };
     };
 
@@ -415,6 +425,76 @@
             bindings =
                 <&kp DE_LPAR>,
                 <&kp DE_RPAR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        question_exclamation: question_exclamation {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUESTION_EXCLAMATION";
+            bindings =
+                <&kp DE_QUESTION>,
+                <&kp DE_EXCLAMATION>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        quotes: quotes {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUOTES";
+            bindings =
+                <&kp DE_SQT>,
+                <&kp DE_DOUBLE_QUOTES>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        tilde_caret: tilde_caret {
+            compatible = "zmk,behavior-mod-morph";
+            label = "TILDE_CARET";
+            bindings =
+                <&kp DE_TILDE>,
+                <&kp DE_CARET>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        ticks: ticks {
+            compatible = "zmk,behavior-mod-morph";
+            label = "TICKS";
+            bindings =
+                <&kp DE_GRAVE>,
+                <&kp DE_ACUTE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        przoent_ampersand: przoent_ampersand {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PRZOENT_AMPERSAND";
+            bindings =
+                <&kp DE_PERCENT>,
+                <&kp DE_AMPERSAND>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        dollar_strich: dollar_strich {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DOLLAR_STRICH";
+            bindings =
+                <&kp DE_DOLLAR>,
+                <&kp DE_PIPE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        plus_mal: plus_mal {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PLUS_MAL";
+            bindings =
+                <&kp DE_PLUS>,
+                <&kp DE_ASTERISK>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
