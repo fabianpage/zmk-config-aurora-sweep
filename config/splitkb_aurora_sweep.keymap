@@ -217,6 +217,26 @@
             bindings = <&angle_bracket>;
             key-positions = <16 8>;
         };
+
+        tilde_daechli {
+            bindings = <&tilde_caret>;
+            key-positions = <17 9>;
+        };
+
+        quotes {
+            bindings = <&quotes>;
+            key-positions = <25 17>;
+        };
+
+        square_bracket {
+            bindings = <&square_bracket>;
+            key-positions = <26 18>;
+        };
+
+        ticks {
+            bindings = <&ticks>;
+            key-positions = <27 19>;
+        };
     };
 
     macros {
