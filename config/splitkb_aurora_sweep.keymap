@@ -237,6 +237,36 @@
             bindings = <&ticks>;
             key-positions = <27 19>;
         };
+
+        perzent_ampersand {
+            bindings = <&przoent_ampersand>;
+            key-positions = <5 17>;
+        };
+
+        curly_bracket {
+            bindings = <&curly_bracket>;
+            key-positions = <6 18>;
+        };
+
+        test {
+            bindings = <&none>;
+            key-positions = <7 19>;
+        };
+
+        plus_mal {
+            bindings = <&plus_mal>;
+            key-positions = <15 27>;
+        };
+
+        round_bracket {
+            bindings = <&round_bracket>;
+            key-positions = <16 28>;
+        };
+
+        test3 {
+            bindings = <&none>;
+            key-positions = <17 29>;
+        };
     };
 
     macros {
