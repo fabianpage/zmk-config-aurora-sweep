@@ -73,8 +73,8 @@
             key-positions = <19 29>;
         };
 
-        es3c {
-            bindings = <&kp ESCAPE>;
+        x {
+            bindings = <&kp DE_X>;
             key-positions = <5 7>;
         };
 
@@ -83,8 +83,8 @@
             key-positions = <15 17>;
         };
 
-        esc3 {
-            bindings = <&kp ESCAPE>;
+        dollar_strich {
+            bindings = <&dollar_strich>;
             key-positions = <25 27>;
         };
 
@@ -158,8 +158,8 @@
             key-positions = <16 7>;
         };
 
-        testb {
-            bindings = <&kp B>;
+        punkt {
+            bindings = <&kp DE_PERIOD>;
             key-positions = <17 8>;
         };
 
@@ -173,8 +173,8 @@
             key-positions = <26 17>;
         };
 
-        test44 {
-            bindings = <&kp DE_G>;
+        linie {
+            bindings = <&kp DE_MINUS>;
             key-positions = <27 18>;
         };
 
@@ -208,8 +208,8 @@
             key-positions = <17 28>;
         };
 
-        test7 {
-            bindings = <&kp DE_COMMA>;
+        question_exclamation {
+            bindings = <&question_exclamation>;
             key-positions = <15 7>;
         };
 
