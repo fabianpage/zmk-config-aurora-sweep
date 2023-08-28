@@ -118,8 +118,8 @@
             key-positions = <25 26>;
         };
 
-        r {
-            bindings = <&kp R>;
+        m {
+            bindings = <&kp M>;
             key-positions = <6 7>;
         };
 
@@ -144,7 +144,7 @@
         };
 
         c {
-            bindings = <&kp C>;
+            bindings = <&kp K>;
             key-positions = <27 28>;
         };
 
@@ -154,7 +154,7 @@
         };
 
         a {
-            bindings = <&kp DE_A>;
+            bindings = <&kp DE_J>;
             key-positions = <16 7>;
         };
 
@@ -567,8 +567,8 @@
         default_layer {
             bindings = <
  &angle_bracket  &curly_bracket  &kp E      &kp R           &kp T            &kp T             &kp U  &kp DE_I  &kp O  &kp LEFT_COMMAND
-&square_bracket  &round_bracket  &kp D      &kp F           &kp G            &kp H             &kp J     &kp K  &kp L      &kp LEFT_ALT
-         &n1_f1           &kp X  &kp C      &kp V           &kp B            &kp N             &kp M  &kp DE_E  &kp S             &to 1
+&square_bracket  &round_bracket  &kp D      &kp F           &kp G            &kp H          &kp DE_A  &kp DE_C  &kp L      &kp LEFT_ALT
+         &n1_f1           &kp X  &kp C      &kp V           &kp B            &kp N          &kp DE_R  &kp DE_E  &kp S             &to 1
                                         &kp SPACE  &sk LEFT_SHIFT  &sk RIGHT_SHIFT  &kp LEFT_CONTROL
             >;
         };
