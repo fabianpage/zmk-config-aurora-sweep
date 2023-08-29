@@ -566,9 +566,9 @@
 
         default_layer {
             bindings = <
- &angle_bracket  &curly_bracket  &kp E      &kp R           &kp T            &kp T             &kp U  &kp DE_I  &kp O  &kp LEFT_COMMAND
+ &kp A  &curly_bracket  &kp E      &kp R           &kp C            &kp T             &kp U  &kp DE_I  &kp O  &kp LEFT_COMMAND
 &square_bracket  &round_bracket  &kp D      &kp F           &kp G            &kp H          &kp DE_A  &kp DE_C  &kp L      &kp LEFT_ALT
-         &n1_f1           &kp X  &kp C      &kp V           &kp B            &kp N          &kp DE_R  &kp DE_E  &kp S             &to 1
+         &kp B           &kp X  &kp C      &kp V           &kp D            &kp N          &kp DE_R  &kp DE_E  &kp S             &to 1
                                         &kp SPACE  &sk LEFT_SHIFT  &sk RIGHT_SHIFT  &kp LEFT_CONTROL
             >;
         };
