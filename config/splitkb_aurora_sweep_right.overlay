@@ -1,3 +1,5 @@
+#include "splitkb_aurora_sweep.dtsi"
+
 &default_transform {
     col-offset = <0>;
 };
