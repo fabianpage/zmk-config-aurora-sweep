@@ -133,18 +133,18 @@
             key-positions = <26 27>;
         };
 
-        ae {
-            bindings = <&shift_ae>;
+        d {
+            bindings = <&kp D>;
             key-positions = <7 8>;
         };
 
-        d {
-            bindings = <&kp D>;
+        s {
+            bindings = <&kp S>;
             key-positions = <17 18>;
         };
 
         c {
-            bindings = <&kp K>;
+            bindings = <&kp C>;
             key-positions = <27 28>;
         };
 
@@ -153,8 +153,8 @@
             key-positions = <15 6>;
         };
 
-        a {
-            bindings = <&kp DE_J>;
+        ae {
+            bindings = <&shift_ae>;
             key-positions = <16 7>;
         };
 
@@ -566,9 +566,9 @@
 
         default_layer {
             bindings = <
- &kp A  &curly_bracket  &kp E      &kp R           &kp C            &kp T             &kp U  &kp DE_I  &kp O  &kp LEFT_COMMAND
-&square_bracket  &round_bracket  &kp D      &kp F           &kp G            &kp H          &kp DE_A  &kp DE_C  &kp L      &kp LEFT_ALT
-         &kp B           &kp X  &kp C      &kp V           &kp D            &kp N          &kp DE_R  &kp DE_E  &kp S             &to 1
+          &kp A  &curly_bracket  &kp E      &kp R           &kp C            &kp T             &kp U  &kp DE_I  &kp O  &kp LEFT_COMMAND
+&square_bracket  &round_bracket  &kp D      &kp F           &kp G            &kp H             &kp J     &kp K  &kp L      &kp LEFT_ALT
+          &kp B           &kp X  &kp C      &kp V           &kp D            &kp N          &kp DE_R  &kp DE_E  &kp A             &to 1
                                         &kp SPACE  &sk LEFT_SHIFT  &sk RIGHT_SHIFT  &kp LEFT_CONTROL
             >;
         };
