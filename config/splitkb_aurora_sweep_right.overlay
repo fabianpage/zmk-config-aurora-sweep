@@ -1,5 +1,7 @@
 
-{
-    compatible = "zmk,matrix-transform";
-    col-offset = <0>;
-};
+/ {
+    transform {
+      compatible = "zmk,matrix-transform";
+      col-offset = <0>;
+    };
+}
