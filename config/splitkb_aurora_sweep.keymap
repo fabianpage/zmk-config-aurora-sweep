@@ -178,11 +178,6 @@
             key-positions = <27 18>;
         };
 
-        oe {
-            bindings = <&shift_oe>;
-            key-positions = <5 16>;
-        };
-
         q {
             bindings = <&kp DE_Q>;
             key-positions = <6 17>;
@@ -193,19 +188,9 @@
             key-positions = <7 18>;
         };
 
-        w {
-            bindings = <&kp W>;
-            key-positions = <15 26>;
-        };
-
         y {
             bindings = <&kp DE_Y>;
             key-positions = <16 27>;
-        };
-
-        slashes {
-            bindings = <&forward_back_slash>;
-            key-positions = <17 28>;
         };
 
         question_exclamation {
@@ -238,19 +223,9 @@
             key-positions = <27 19>;
         };
 
-        perzent_ampersand {
-            bindings = <&przoent_ampersand>;
-            key-positions = <5 17>;
-        };
-
         curly_bracket {
             bindings = <&curly_bracket>;
             key-positions = <6 18>;
-        };
-
-        test {
-            bindings = <&none>;
-            key-positions = <7 19>;
         };
 
         plus_mal {
@@ -261,11 +236,6 @@
         round_bracket {
             bindings = <&round_bracket>;
             key-positions = <16 28>;
-        };
-
-        test3 {
-            bindings = <&none>;
-            key-positions = <17 29>;
         };
     };
 
