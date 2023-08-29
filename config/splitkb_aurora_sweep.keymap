@@ -203,8 +203,8 @@
             key-positions = <16 27>;
         };
 
-        adsf {
-            bindings = <&kp DE_X>;
+        slashes {
+            bindings = <&forward_back_slash>;
             key-positions = <17 28>;
         };
 
@@ -555,6 +555,16 @@
             bindings =
                 <&kp DE_PLUS>,
                 <&kp DE_ASTERISK>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        forward_back_slash: forward_back_slash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "FORWARD_BACK_SLASH";
+            bindings =
+                <&kp DE_SLASH>,
+                <&kp DE_BACKSLASH>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
