@@ -1,5 +1,5 @@
-#include "splitkb_aurora_sweep.dtsi"
 
-&default_transform {
+{
+    compatible = "zmk,matrix-transform";
     col-offset = <0>;
 };
