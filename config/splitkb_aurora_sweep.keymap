@@ -570,10 +570,10 @@
 
         default_layer {
             bindings = <
-          &kp A  &curly_bracket  &kp E      &kp R           &kp C            &kp T             &kp U  &kp DE_I  &kp O  &kp LEFT_COMMAND
-&square_bracket  &round_bracket  &kp D      &kp F           &kp G            &kp H             &kp J     &kp K  &kp L      &kp LEFT_ALT
-          &kp B           &kp X  &kp C      &kp V           &kp D            &kp N          &kp DE_R  &kp DE_E  &kp A             &to 1
-                                        &kp SPACE  &sk LEFT_SHIFT  &sk RIGHT_SHIFT  &kp LEFT_CONTROL
+&kp LEFT_COMMAND &kp O  &kp DE_I  &kp U  &kp T             &kp C            &kp R           &kp E      &curly_bracket  &kp A  
+&kp LEFT_ALT &kp L      &kp K  &kp J     &kp H             &kp G            &kp F           &kp D      &round_bracket  &square_bracket  
+&to 1 &kp A             &kp DE_E  &kp DE_R  &kp N          &kp D            &kp V           &kp C      &kp X  &kp B           
+&kp LEFT_CONTROL &sk RIGHT_SHIFT  &sk LEFT_SHIFT  &kp SPACE  
             >;
         };
 
@@ -596,3 +596,8 @@
         };
     };
 };
+
+
+
+
+
