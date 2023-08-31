@@ -579,23 +579,26 @@
 
         nav_nag {
             bindings = <
-&kp DE_GRAVE      &kp DE_AT  &kp DE_EQUAL  &kp DE_AMPERSAND  &kp DE_CARET        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &trans
-    &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP           &kp END  &kp DE_TILDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp DE_ACUTE          &to 2  &kp CAPSLOCK     &kp DE_DOLLAR   &kp DE_HASH           &to 0        &kp LGUI       &kp TAB     &kp LEFT_ALT   &to 2
-                                                      &mo 1      &kp LGUI      &kp LSHIFT       &kp LCTRL
+&kp END  &trans &kp PAGE_UP          &kp PAGE_DOWN   &kp HOME   &kp DE_CARET        &kp DE_AMPERSAND  &kp DE_EQUAL  &kp DE_AT  &kp DE_GRAVE      
+&trans &kp RIGHT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp DE_TILDE  &kp END  &kp PAGE_UP           &kp PAGE_DOWN   &kp HOME  
+&to 2 &kp LEFT_ALT   &kp TAB     &kp LGUI       &to 0        &kp DE_HASH           &kp DE_DOLLAR   &kp CAPSLOCK     &to 2  &kp DE_ACUTE          
+&kp LCTRL &kp LSHIFT       &kp LGUI      &mo 1      
             >;
         };
 
         f_special {
             bindings = <
-  &bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp RPRN
+&bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp RPRN
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLN      &kp SCLN  &kp MINUS    &bt BT_PRV    &bt BT_NXT    &bt BT_CLR  &kp BKSP
-  &sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH      &to 0    &sys_reset      &kp DOWN   &bootloader     &to 2
-                                             &mo 0      &kp LCTL      &to 0         &mo 2
+&sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH      &to 0    &sys_reset      &kp DOWN   &bootloader     &to 2
+&mo 0      &kp LCTL      &to 0         &mo 2
             >;
         };
     };
 };
+
+
+
 
 
 
