@@ -10,7 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-
 &default_transform {
     col-offset = <0>;
 };
@@ -30,7 +29,7 @@
 
         n1 {
             bindings = <&n1_f1>;
-            key-positions = <5 15>;
+            key-positions = <4 14>;
         };
 
         n2 {
