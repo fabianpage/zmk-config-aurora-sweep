@@ -570,37 +570,29 @@
 
         default_layer {
             bindings = <
-&kp LEFT_COMMAND &kp O  &kp DE_I  &kp U  &kp T             &kp C            &kp R           &kp E      &curly_bracket  &kp A  
-&kp LEFT_ALT &kp L      &kp K  &kp J     &kp H             &kp G            &kp F           &kp D      &round_bracket  &square_bracket  
-&to 1 &kp A             &kp DE_E  &kp DE_R  &kp N          &kp D            &kp V           &kp C      &kp X  &kp B           
-&kp LEFT_CONTROL &sk RIGHT_SHIFT  &sk LEFT_SHIFT  &kp SPACE  
+&kp LEFT_COMMAND  &kp O  &kp DE_I             &kp U            &kp T           &kp C      &kp R  &kp E  &curly_bracket            &kp A
+    &kp LEFT_ALT  &kp L     &kp K             &kp J            &kp H           &kp G      &kp F  &kp D  &round_bracket  &square_bracket
+           &to 1  &kp A  &kp DE_E          &kp DE_R            &kp N           &kp D      &kp V  &kp C           &kp X            &kp B
+                                   &kp LEFT_CONTROL  &sk RIGHT_SHIFT  &sk LEFT_SHIFT  &kp SPACE
             >;
         };
 
         nav_nag {
             bindings = <
-&kp END  &trans &kp PAGE_UP          &kp PAGE_DOWN   &kp HOME   &kp DE_CARET        &kp DE_AMPERSAND  &kp DE_EQUAL  &kp DE_AT  &kp DE_GRAVE      
-&trans &kp RIGHT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp DE_TILDE  &kp END  &kp PAGE_UP           &kp PAGE_DOWN   &kp HOME  
-&to 2 &kp LEFT_ALT   &kp TAB     &kp LGUI       &to 0        &kp DE_HASH           &kp DE_DOLLAR   &kp CAPSLOCK     &to 2  &kp DE_ACUTE          
-&kp LCTRL &kp LSHIFT       &kp LGUI      &mo 1      
+&trans          &kp END   &kp PAGE_UP   &kp PAGE_DOWN        &kp HOME  &kp DE_CARET  &kp DE_AMPERSAND  &kp DE_EQUAL      &kp DE_AT  &kp DE_GRAVE
+&trans  &kp RIGHT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp DE_TILDE           &kp END   &kp PAGE_UP  &kp PAGE_DOWN      &kp HOME
+ &to 2     &kp LEFT_ALT       &kp TAB        &kp LGUI           &to 0   &kp DE_HASH     &kp DE_DOLLAR  &kp CAPSLOCK          &to 2  &kp DE_ACUTE
+                                            &kp LCTRL      &kp LSHIFT      &kp LGUI             &mo 1
             >;
         };
 
         f_special {
             bindings = <
-&bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp RPRN
+  &bt BT_CLR    &bt BT_NXT    &bt BT_PRV  &kp DLLR  &out OUT_TOG   &kp CRRT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp RPRN
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp COLN      &kp SCLN  &kp MINUS    &bt BT_PRV    &bt BT_NXT    &bt BT_CLR  &kp BKSP
-&sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH      &to 0    &sys_reset      &kp DOWN   &bootloader     &to 2
-&mo 0      &kp LCTL      &to 0         &mo 2
+  &sys_reset   &bootloader      &kp LBKT  &kp RBKT      &kp BSLH      &to 0    &sys_reset      &kp DOWN   &bootloader     &to 2
+                                             &mo 0      &kp LCTL      &to 0         &mo 2
             >;
         };
     };
 };
-
-
-
-
-
-
-
-
