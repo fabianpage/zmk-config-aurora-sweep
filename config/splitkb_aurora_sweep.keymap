@@ -232,8 +232,8 @@
             key-positions = <3 11>;
         };
 
-        plus_mal {
-            bindings = <&plus_mal>;
+        trans5 {
+            bindings = <&trans>;
             key-positions = <14 22>;
         };
 
