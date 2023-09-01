@@ -152,18 +152,18 @@
             key-positions = <22 21>;
         };
 
-        ue {
-            bindings = <&shift_ue>;
+        komma {
+            bindings = <&kp DE_COMMA>;
             key-positions = <14 3>;
         };
 
-        ae {
-            bindings = <&shift_ae>;
+        punkt {
+            bindings = <&kp DE_DOT>;
             key-positions = <13 2>;
         };
 
-        punkt {
-            bindings = <&kp DE_PERIOD>;
+        trans2 {
+            bindings = <&trans>;
             key-positions = <12 1>;
         };
 
@@ -172,13 +172,13 @@
             key-positions = <24 13>;
         };
 
-        p {
-            bindings = <&kp DE_P>;
+        strich {
+            bindings = <&kp DE_MINUS>;
             key-positions = <23 12>;
         };
 
-        linie {
-            bindings = <&kp DE_MINUS>;
+        trans3 {
+            bindings = <&trans>;
             key-positions = <22 11>;
         };
 
