@@ -252,13 +252,13 @@
             key-positions = <13 2 1>;
         };
 
-        oe {
-            bindings = <&shift_oe>;
+        hash {
+            bindings = <&kp DE_HASH>;
             key-positions = <24 13 12>;
         };
 
-        w {
-            bindings = <&kp W>;
+        plus_mal {
+            bindings = <&plus_mal>;
             key-positions = <23 12 11>;
         };
     };
