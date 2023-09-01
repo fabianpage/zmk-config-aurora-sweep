@@ -182,18 +182,18 @@
             key-positions = <22 11>;
         };
 
-        q {
-            bindings = <&kp DE_Q>;
+        trans4 {
+            bindings = <&trans>;
             key-positions = <3 12>;
-        };
-
-        komma {
-            bindings = <&kp DE_COMMA>;
-            key-positions = <2 11>;
         };
 
         y {
             bindings = <&kp DE_Y>;
+            key-positions = <14 23>;
+        };
+
+        x {
+            bindings = <&kp DE_X>;
             key-positions = <13 22>;
         };
 
