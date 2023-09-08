@@ -291,6 +291,12 @@
             bindings = <&kp DE_P>;
             key-positions = <23 22 21>;
         };
+
+        previous_track {
+            bindings = <&kp C_PREV>;
+            key-positions = <30 23>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -631,7 +637,7 @@
             bindings = <
 &trans  &kp END          &kp PAGE_UP       &kp PAGE_DOWN   &kp HOME        &trans  &trans  &trans  &trans  &trans
 &trans  &kp RIGHT_ARROW  &kp UP_ARROW      &kp DOWN_ARROW  &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
-&to 2   &lauter_leiser   &kp C_PLAY_PAUSE  &next_prev      &to 0           &trans  &trans  &trans  &trans  &trans
+&to 2   &lauter_leiser   &kp C_PLAY_PAUSE  &kp C_NEXT      &to 0           &trans  &trans  &trans  &trans  &trans
                                            &kp LCTRL       &kp LSHIFT      &trans  &trans
             >;
         };
