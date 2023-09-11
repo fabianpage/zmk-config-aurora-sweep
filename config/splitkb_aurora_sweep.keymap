@@ -189,12 +189,12 @@
 
         y {
             bindings = <&kp DE_Y>;
-            key-positions = <14 23>;
+            key-positions = <23 12 21>;
         };
 
         x {
             bindings = <&kp DE_X>;
-            key-positions = <13 22>;
+            key-positions = <13 2 11>;
         };
 
         question_exclamation {
