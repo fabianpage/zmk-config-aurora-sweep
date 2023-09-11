@@ -297,6 +297,11 @@
             key-positions = <30 23>;
             layers = <1>;
         };
+
+        at {
+            bindings = <&kp DE_AT>;
+            key-positions = <13 12 2>;
+        };
     };
 
     macros {
