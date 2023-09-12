@@ -197,6 +197,16 @@
             key-positions = <13 2 11>;
         };
 
+        at {
+            bindings = <&kp DE_AT>;
+            key-positions = <22 11 20>;
+        };
+
+        trans {
+            bindings = <&trans>;
+            key-positions = <12 1 10>;
+        };
+
         question_exclamation {
             bindings = <&question_exclamation>;
             key-positions = <14 2>;
@@ -298,8 +308,8 @@
             layers = <1>;
         };
 
-        at {
-            bindings = <&kp DE_AT>;
+        trans555 {
+            bindings = <&trans>;
             key-positions = <13 12 2>;
         };
     };
