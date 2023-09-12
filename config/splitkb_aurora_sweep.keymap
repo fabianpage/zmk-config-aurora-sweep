@@ -207,34 +207,14 @@
             key-positions = <12 1 10>;
         };
 
-        question_exclamation {
-            bindings = <&question_exclamation>;
-            key-positions = <14 2>;
-        };
-
         angle-bracket {
             bindings = <&angle_bracket>;
             key-positions = <13 1>;
         };
 
-        tilde_daechli {
-            bindings = <&tilde_caret>;
-            key-positions = <12 0>;
-        };
-
-        quotes {
-            bindings = <&quotes>;
-            key-positions = <24 12>;
-        };
-
         square_bracket {
             bindings = <&square_bracket>;
             key-positions = <23 11>;
-        };
-
-        ticks {
-            bindings = <&ticks>;
-            key-positions = <22 10>;
         };
 
         curly_bracket {
@@ -308,9 +288,24 @@
             layers = <1>;
         };
 
-        trans555 {
-            bindings = <&trans>;
-            key-positions = <13 12 2>;
+        question_exclamation {
+            bindings = <&question_exclamation>;
+            key-positions = <12 2 13>;
+        };
+
+        qutoes {
+            bindings = <&quotes>;
+            key-positions = <22 12 23>;
+        };
+
+        tilde_daechli {
+            bindings = <&tilde_caret>;
+            key-positions = <12 2 11>;
+        };
+
+        ticks {
+            bindings = <&ticks>;
+            key-positions = <21 22 12>;
         };
     };
 
