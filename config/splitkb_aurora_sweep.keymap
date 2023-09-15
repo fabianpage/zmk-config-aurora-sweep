@@ -428,6 +428,7 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         n5_f5: n5_f5 {
             compatible = "zmk,behavior-mod-morph";
