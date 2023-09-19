@@ -199,12 +199,12 @@
 
         at {
             bindings = <&kp DE_AT>;
-            key-positions = <22 11 20>;
+            key-positions = <24 13 22>;
         };
 
         equal {
             bindings = <&kp DE_EQUAL>;
-            key-positions = <12 1 10>;
+            key-positions = <14 3 12>;
         };
 
         angle-bracket {
