@@ -202,8 +202,8 @@
             key-positions = <22 11 20>;
         };
 
-        trans {
-            bindings = <&trans>;
+        equal {
+            bindings = <&kp DE_EQUAL>;
             key-positions = <12 1 10>;
         };
 
