@@ -604,7 +604,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "FORWARD_BACK_SLASH";
             bindings =
-                <&kp DE_SLASH>,
+                <&kp KP_SLASH>,
                 <&kp DE_BACKSLASH>;
 
             #binding-cells = <0>;
