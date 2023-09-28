@@ -646,7 +646,7 @@
             bindings = <
 &sticky_mod LEFT_GUI  &kp O  &kp DE_I  &kp U                     &kp T            &trans  &trans  &trans  &trans  &trans
 &sticky_mod LEFT_ALT  &kp L  &kp K     &kp J                     &kp H            &trans  &trans  &trans  &trans  &trans
-&to 1                 &kp A  &kp DE_E  &kp DE_R                  &kp N            &trans  &trans  &trans  &trans  &trans
+&sl 1                 &kp A  &kp DE_E  &kp DE_R                  &kp N            &trans  &trans  &trans  &trans  &trans
                                        &sticky_mod LEFT_CONTROL  &sk RIGHT_SHIFT  &trans  &trans
             >;
         };
