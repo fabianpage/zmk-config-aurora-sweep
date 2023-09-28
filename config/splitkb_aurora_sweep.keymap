@@ -243,7 +243,7 @@
         };
 
         hash {
-            bindings = <&kp DE_HASH>;
+            bindings = <&hash_equal>;
             key-positions = <24 13 12>;
         };
 
@@ -636,6 +636,16 @@
             bindings = <&kp>;
             #binding-cells = <1>;
             release-after-ms = <1000>;
+        };
+        hash_equal: hash_equal {
+            compatible = "zmk,behavior-mod-morph";
+            label = "HASH_EQUAL";
+            bindings =
+                <&kp DE_HASH>,
+                <&kp DE_EQUAL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
         };
     };
 
