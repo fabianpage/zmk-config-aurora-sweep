@@ -644,10 +644,10 @@
 
         default_layer {
             bindings = <
-&sticky_mod LEFT_GUI  &kp O  &kp DE_I  &kp U                     &kp T            &trans  &trans  &trans  &trans  &trans
-&sticky_mod LEFT_ALT  &kp L  &kp K     &kp J                     &kp H            &trans  &trans  &trans  &trans  &trans
-&sl 1                 &kp A  &kp DE_E  &kp DE_R                  &kp N            &trans  &trans  &trans  &trans  &trans
-                                       &sticky_mod LEFT_CONTROL  &sk RIGHT_SHIFT  &trans  &trans
+&sticky_mod LEFT_GUI      &kp O  &kp DE_I  &kp U     &kp T            &trans  &trans  &trans  &trans  &trans
+&sticky_mod LEFT_ALT      &kp L  &kp K     &kp J     &kp H            &trans  &trans  &trans  &trans  &trans
+&sticky_mod LEFT_CONTROL  &kp A  &kp DE_E  &kp DE_R  &kp N            &trans  &trans  &trans  &trans  &trans
+                                           &sl 1     &sk RIGHT_SHIFT  &trans  &trans
             >;
         };
 
@@ -655,8 +655,8 @@
             bindings = <
 &kp C_VOLUME_UP    &kp END          &kp PAGE_UP       &kp PAGE_DOWN   &kp HOME        &trans  &trans  &trans  &trans  &trans
 &kp C_VOLUME_DOWN  &kp RIGHT_ARROW  &kp UP_ARROW      &kp DOWN_ARROW  &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
-&to 2              &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_NEXT      &to 0           &trans  &trans  &trans  &trans  &trans
-                                                      &kp LCTRL       &kp LSHIFT      &trans  &trans
+&none              &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_NEXT      &to 0           &trans  &trans  &trans  &trans  &trans
+                                                      &sl 2           &kp LSHIFT      &trans  &trans
             >;
         };
 
