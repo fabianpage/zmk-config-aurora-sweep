@@ -93,7 +93,7 @@
         };
 
         backspace {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&backspace_delete>;
             key-positions = <3 1>;
         };
 
@@ -643,6 +643,16 @@
             bindings =
                 <&kp DE_HASH>,
                 <&kp DE_EQUAL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+        backspace_delete: backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKSPACE_DELETE";
+            bindings =
+                <&kp BACKSPACE>,
+                <&kp DELETE>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
