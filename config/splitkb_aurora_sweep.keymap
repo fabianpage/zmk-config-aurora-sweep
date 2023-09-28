@@ -630,6 +630,13 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        gui: gui {
+            compatible = "zmk,behavior-sticky-key";
+            label = "GUI";
+            bindings = <&angle_bracket>;
+            #binding-cells = <1>;
+            release-after-ms = <1000>;
+        };
     };
 
     keymap {
@@ -637,10 +644,10 @@
 
         default_layer {
             bindings = <
-&kp LEFT_COMMAND  &kp O  &kp DE_I  &kp U             &kp T            &trans  &trans  &trans  &trans  &trans
-&kp LEFT_ALT      &kp L  &kp K     &kp J             &kp H            &trans  &trans  &trans  &trans  &trans
-&to 1             &kp A  &kp DE_E  &kp DE_R          &kp N            &trans  &trans  &trans  &trans  &trans
-                                   &kp LEFT_CONTROL  &sk RIGHT_SHIFT  &trans  &trans
+&gui 0        &kp O  &kp DE_I  &kp U             &kp T            &trans  &trans  &trans  &trans  &trans
+&kp LEFT_ALT  &kp L  &kp K     &kp J             &kp H            &trans  &trans  &trans  &trans  &trans
+&to 1         &kp A  &kp DE_E  &kp DE_R          &kp N            &trans  &trans  &trans  &trans  &trans
+                               &kp LEFT_CONTROL  &sk RIGHT_SHIFT  &trans  &trans
             >;
         };
 
