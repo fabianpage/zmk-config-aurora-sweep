@@ -93,8 +93,9 @@
         };
 
         backspace {
-            bindings = <&backspace_delete>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <3 1>;
+            layers = <0>;
         };
 
         space {
@@ -307,6 +308,12 @@
             bindings = <&ticks>;
             key-positions = <21 22 12>;
         };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <3 1>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -352,9 +359,7 @@
         brace: brace {
             compatible = "zmk,behavior-mod-morph";
             label = "BRACE";
-            bindings =
-                <&kp DE_LEFT_BRACE>,
-                <&kp DE_RIGHT_BRACE>;
+            bindings = <&kp DE_LEFT_BRACE>, <&kp DE_RIGHT_BRACE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -362,9 +367,7 @@
         shift_ae: shift_ae {
             compatible = "zmk,behavior-mod-morph";
             label = "SHIFT_AE";
-            bindings =
-                <&kp DE_A_UMLAUT>,
-                <&caps_ae>;
+            bindings = <&kp DE_A_UMLAUT>, <&caps_ae>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -372,9 +375,7 @@
         shift_oe: shift_oe {
             compatible = "zmk,behavior-mod-morph";
             label = "SHIFT_OE";
-            bindings =
-                <&kp DE_O_UMLAUT>,
-                <&caps_oe>;
+            bindings = <&kp DE_O_UMLAUT>, <&caps_oe>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -382,9 +383,7 @@
         shift_ue: shift_ue {
             compatible = "zmk,behavior-mod-morph";
             label = "SHIFT_UE";
-            bindings =
-                <&kp DE_U_UMLAUT>,
-                <&caps_ue>;
+            bindings = <&kp DE_U_UMLAUT>, <&caps_ue>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -392,9 +391,7 @@
         n1_f1: n1_f1 {
             compatible = "zmk,behavior-mod-morph";
             label = "N1_F1";
-            bindings =
-                <&kp NUMBER_1>,
-                <&kp F1>;
+            bindings = <&kp NUMBER_1>, <&kp F1>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -402,9 +399,7 @@
         n2_f2: n2_f2 {
             compatible = "zmk,behavior-mod-morph";
             label = "N2_F2";
-            bindings =
-                <&kp NUMBER_2>,
-                <&kp F2>;
+            bindings = <&kp NUMBER_2>, <&kp F2>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -412,9 +407,7 @@
         n3_f3: n3_f3 {
             compatible = "zmk,behavior-mod-morph";
             label = "N3_F3";
-            bindings =
-                <&kp NUMBER_3>,
-                <&kp F3>;
+            bindings = <&kp NUMBER_3>, <&kp F3>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -422,9 +415,7 @@
         n4_f4: n4_f4 {
             compatible = "zmk,behavior-mod-morph";
             label = "N4_F4";
-            bindings =
-                <&kp NUMBER_4>,
-                <&kp F4>;
+            bindings = <&kp NUMBER_4>, <&kp F4>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -433,9 +424,7 @@
         n5_f5: n5_f5 {
             compatible = "zmk,behavior-mod-morph";
             label = "N5_F5";
-            bindings =
-                <&kp NUMBER_5>,
-                <&kp F5>;
+            bindings = <&kp NUMBER_5>, <&kp F5>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -443,9 +432,7 @@
         n6_f6: n6_f6 {
             compatible = "zmk,behavior-mod-morph";
             label = "N6_F6";
-            bindings =
-                <&kp NUMBER_6>,
-                <&kp F6>;
+            bindings = <&kp NUMBER_6>, <&kp F6>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -453,9 +440,7 @@
         n7_f7: n7_f7 {
             compatible = "zmk,behavior-mod-morph";
             label = "N7_F7";
-            bindings =
-                <&kp NUMBER_7>,
-                <&kp F7>;
+            bindings = <&kp NUMBER_7>, <&kp F7>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -463,9 +448,7 @@
         n8_f8: n8_f8 {
             compatible = "zmk,behavior-mod-morph";
             label = "N8_F8";
-            bindings =
-                <&kp NUMBER_8>,
-                <&kp F8>;
+            bindings = <&kp NUMBER_8>, <&kp F8>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -473,9 +456,7 @@
         n9_f9: n9_f9 {
             compatible = "zmk,behavior-mod-morph";
             label = "N9_F9";
-            bindings =
-                <&kp NUMBER_9>,
-                <&kp F9>;
+            bindings = <&kp NUMBER_9>, <&kp F9>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -483,9 +464,7 @@
         n0_f10: n0_f10 {
             compatible = "zmk,behavior-mod-morph";
             label = "N0_F10";
-            bindings =
-                <&kp NUMBER_0>,
-                <&kp F10>;
+            bindings = <&kp NUMBER_0>, <&kp F10>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -493,9 +472,7 @@
         angle_bracket: angle_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "ANGLE_BRACKET";
-            bindings =
-                <&kp DE_LT>,
-                <&kp DE_GT>;
+            bindings = <&kp DE_LT>, <&kp DE_GT>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -503,9 +480,7 @@
         square_bracket: square_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "SQUARE_BRACKET";
-            bindings =
-                <&kp DE_LBKT>,
-                <&kp DE_RBKT>;
+            bindings = <&kp DE_LBKT>, <&kp DE_RBKT>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -513,9 +488,7 @@
         curly_bracket: curly_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "CURLY_BRACKET";
-            bindings =
-                <&kp DE_LBRC>,
-                <&kp DE_RBRC>;
+            bindings = <&kp DE_LBRC>, <&kp DE_RBRC>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -523,9 +496,7 @@
         round_bracket: round_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "ROUND_BRACKET";
-            bindings =
-                <&kp DE_LPAR>,
-                <&kp DE_RPAR>;
+            bindings = <&kp DE_LPAR>, <&kp DE_RPAR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -533,9 +504,7 @@
         question_exclamation: question_exclamation {
             compatible = "zmk,behavior-mod-morph";
             label = "QUESTION_EXCLAMATION";
-            bindings =
-                <&kp DE_QUESTION>,
-                <&kp DE_EXCLAMATION>;
+            bindings = <&kp DE_QUESTION>, <&kp DE_EXCLAMATION>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -543,9 +512,7 @@
         quotes: quotes {
             compatible = "zmk,behavior-mod-morph";
             label = "QUOTES";
-            bindings =
-                <&kp DE_SQT>,
-                <&kp DE_DOUBLE_QUOTES>;
+            bindings = <&kp DE_SQT>, <&kp DE_DOUBLE_QUOTES>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -553,9 +520,7 @@
         tilde_caret: tilde_caret {
             compatible = "zmk,behavior-mod-morph";
             label = "TILDE_CARET";
-            bindings =
-                <&kp DE_TILDE>,
-                <&kp DE_CARET>;
+            bindings = <&kp DE_TILDE>, <&kp DE_CARET>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -563,9 +528,7 @@
         ticks: ticks {
             compatible = "zmk,behavior-mod-morph";
             label = "TICKS";
-            bindings =
-                <&kp DE_GRAVE>,
-                <&kp DE_ACUTE>;
+            bindings = <&kp DE_GRAVE>, <&kp DE_ACUTE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -573,9 +536,7 @@
         przoent_ampersand: przoent_ampersand {
             compatible = "zmk,behavior-mod-morph";
             label = "PRZOENT_AMPERSAND";
-            bindings =
-                <&kp DE_PERCENT>,
-                <&kp DE_AMPERSAND>;
+            bindings = <&kp DE_PERCENT>, <&kp DE_AMPERSAND>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -583,9 +544,7 @@
         dollar_strich: dollar_strich {
             compatible = "zmk,behavior-mod-morph";
             label = "DOLLAR_STRICH";
-            bindings =
-                <&kp DE_DOLLAR>,
-                <&kp DE_PIPE>;
+            bindings = <&kp DE_DOLLAR>, <&kp DE_PIPE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -593,9 +552,7 @@
         plus_mal: plus_mal {
             compatible = "zmk,behavior-mod-morph";
             label = "PLUS_MAL";
-            bindings =
-                <&kp DE_PLUS>,
-                <&kp DE_ASTERISK>;
+            bindings = <&kp DE_PLUS>, <&kp DE_ASTERISK>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -603,9 +560,7 @@
         forward_back_slash: forward_back_slash {
             compatible = "zmk,behavior-mod-morph";
             label = "FORWARD_BACK_SLASH";
-            bindings =
-                <&kp KP_SLASH>,
-                <&kp DE_BACKSLASH>;
+            bindings = <&kp KP_SLASH>, <&kp DE_BACKSLASH>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -613,9 +568,7 @@
         next_prev: next_prev {
             compatible = "zmk,behavior-mod-morph";
             label = "NEXT_PREV";
-            bindings =
-                <&kp C_NEXT>,
-                <&kp C_PREV>;
+            bindings = <&kp C_NEXT>, <&kp C_PREV>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -623,9 +576,7 @@
         lauter_leiser: lauter_leiser {
             compatible = "zmk,behavior-mod-morph";
             label = "LAUTER_LEISER";
-            bindings =
-                <&kp C_VOLUME_UP>,
-                <&kp C_VOLUME_DOWN>;
+            bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -640,9 +591,7 @@
         hash_equal: hash_equal {
             compatible = "zmk,behavior-mod-morph";
             label = "HASH_EQUAL";
-            bindings =
-                <&kp DE_HASH>,
-                <&kp DE_EQUAL>;
+            bindings = <&kp DE_HASH>, <&kp DE_EQUAL>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
@@ -650,9 +599,7 @@
         backspace_delete: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_DELETE";
-            bindings =
-                <&kp BACKSPACE>,
-                <&kp DELETE>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
@@ -673,10 +620,10 @@
 
         nav_nag {
             bindings = <
-&kp C_VOLUME_UP    &kp END          &kp PAGE_UP       &kp PAGE_DOWN   &kp HOME        &trans  &trans  &trans  &trans  &trans
-&kp C_VOLUME_DOWN  &kp RIGHT_ARROW  &kp UP_ARROW      &kp DOWN_ARROW  &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
-&none              &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_NEXT      &to 0           &trans  &trans  &trans  &trans  &trans
-                                                      &sl 2           &kp LSHIFT      &trans  &trans
+&kp C_VOLUME_UP    &kp END          &kp PAGE_UP   &kp PAGE_DOWN     &kp HOME        &trans  &trans  &trans  &trans  &trans
+&kp C_VOLUME_DOWN  &kp RIGHT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW    &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
+&none              &kp LEFT_GUI     &kp LEFT_ALT  &kp LEFT_CONTROL  &to 0           &trans  &trans  &trans  &trans  &trans
+                                                  &sl 2             &kp LSHIFT      &trans  &trans
             >;
         };
 
