@@ -138,16 +138,6 @@
             key-positions = <23 22>;
         };
 
-        d {
-            bindings = <&kp D>;
-            key-positions = <2 1>;
-        };
-
-        s {
-            bindings = <&kp S>;
-            key-positions = <12 11>;
-        };
-
         c {
             bindings = <&kp C>;
             key-positions = <22 21>;
@@ -255,32 +245,27 @@
 
         ae {
             bindings = <&shift_ae>;
-            key-positions = <4 3 2>;
+            key-positions = <11 10>;
         };
 
         w {
             bindings = <&kp DE_W>;
-            key-positions = <3 2 1>;
+            key-positions = <2 1>;
         };
 
         oe {
             bindings = <&shift_oe>;
-            key-positions = <14 13 12>;
+            key-positions = <12 11>;
         };
 
         q {
             bindings = <&kp DE_Q>;
-            key-positions = <13 12 11>;
+            key-positions = <1 0>;
         };
 
         ue {
             bindings = <&shift_ue>;
-            key-positions = <24 23 22>;
-        };
-
-        p {
-            bindings = <&kp DE_P>;
-            key-positions = <23 22 21>;
+            key-positions = <21 20>;
         };
 
         previous_track {
