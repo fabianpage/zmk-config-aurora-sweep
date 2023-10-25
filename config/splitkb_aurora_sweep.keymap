@@ -180,12 +180,12 @@
 
         y {
             bindings = <&kp DE_Y>;
-            key-positions = <23 12 21>;
+            key-positions = <21 10>;
         };
 
         x {
             bindings = <&kp DE_X>;
-            key-positions = <13 2 11>;
+            key-positions = <11 0>;
         };
 
         at {
@@ -297,6 +297,12 @@
         delete {
             bindings = <&kp DELETE>;
             key-positions = <3 1>;
+            layers = <1>;
+        };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <4 14>;
             layers = <1>;
         };
     };
