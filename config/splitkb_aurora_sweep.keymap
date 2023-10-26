@@ -30,6 +30,7 @@
         n1 {
             bindings = <&n1_f1>;
             key-positions = <4 14>;
+            layers = <0>;
         };
 
         n2 {
