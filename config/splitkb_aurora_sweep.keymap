@@ -28,7 +28,7 @@
         compatible = "zmk,combos";
 
         n1 {
-            bindings = <&n1_f1>;
+            bindings = <&kp NUMBER_1>;
             key-positions = <4 14>;
             layers = <0>;
         };
