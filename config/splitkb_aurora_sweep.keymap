@@ -136,7 +136,7 @@
         };
 
         n0 {
-            bindings = <&kp NUMBER_10>;
+            bindings = <&kp N0>;
             key-positions = <10 20>;
             layers = <0>;
         };
