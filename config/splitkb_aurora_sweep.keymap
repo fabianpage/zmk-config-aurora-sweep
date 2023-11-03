@@ -253,73 +253,73 @@
         x {
             bindings = <&kp DE_X>;
             key-positions = <3 4>;
-            layers = <0>;
+            layers = <1>;
         };
 
         y {
             bindings = <&kp DE_Y>;
             key-positions = <13 14>;
-            layers = <0>;
+            layers = <1>;
         };
 
         angled-open {
             bindings = <&kp DE_LT>;
             key-positions = <23 24>;
-            layers = <0>;
+            layers = <1>;
         };
 
         square-open {
             bindings = <&kp DE_LBKT>;
             key-positions = <3 2>;
-            layers = <0>;
+            layers = <1>;
         };
 
         round-open {
             bindings = <&kp DE_LPAR>;
             key-positions = <13 12>;
-            layers = <0>;
+            layers = <1>;
         };
 
         curly-open {
             bindings = <&kp DE_LBRC>;
             key-positions = <22 23>;
-            layers = <0>;
+            layers = <1>;
         };
 
         square-close {
             bindings = <&kp DE_RBKT>;
             key-positions = <2 1>;
-            layers = <0>;
+            layers = <1>;
         };
 
         round-close {
             bindings = <&kp DE_RPAR>;
             key-positions = <11 12>;
-            layers = <0>;
+            layers = <1>;
         };
 
         curly-close {
             bindings = <&kp DE_LBRC>;
             key-positions = <22 21>;
-            layers = <0>;
+            layers = <1>;
         };
 
         huhu1 {
             bindings = <&shift_oe>;
             key-positions = <0 1>;
-            layers = <0>;
+            layers = <1>;
         };
 
         hahah {
             bindings = <&kp C>;
             key-positions = <11 10>;
-            layers = <0>;
+            layers = <1>;
         };
 
         angled-close {
             bindings = <&kp DE_GT>;
             key-positions = <21 20>;
-            layers = <0>;
+            layers = <1>;
         };
 
         komma {
