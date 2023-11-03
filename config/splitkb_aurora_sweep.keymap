@@ -258,73 +258,67 @@
 
         y {
             bindings = <&kp DE_Y>;
-            key-positions = <3 4>;
+            key-positions = <13 14>;
             layers = <0>;
         };
 
         angled-open {
             bindings = <&kp DE_LT>;
-            key-positions = <3 4>;
-            layers = <0>;
-        };
-
-        angled-open {
-            bindings = <&kp DE_LT>;
-            key-positions = <3 4>;
+            key-positions = <23 24>;
             layers = <0>;
         };
 
         square-open {
             bindings = <&kp DE_LBKT>;
-            key-positions = <14 13>;
+            key-positions = <3 2>;
             layers = <0>;
         };
 
         round-open {
             bindings = <&kp DE_LPAR>;
-            key-positions = <24 23>;
+            key-positions = <13 12>;
             layers = <0>;
         };
 
         curly-open {
             bindings = <&kp DE_LBRC>;
-            key-positions = <3 2>;
+            key-positions = <22 23>;
             layers = <0>;
         };
 
         square-close {
             bindings = <&kp DE_RBKT>;
-            key-positions = <13 12>;
+            key-positions = <2 1>;
             layers = <0>;
         };
 
         round-close {
             bindings = <&kp DE_RPAR>;
-            key-positions = <23 22>;
+            key-positions = <11 12>;
             layers = <0>;
         };
 
         curly-close {
             bindings = <&kp DE_LBRC>;
-            key-positions = <2 1>;
+            key-positions = <22 21>;
             layers = <0>;
         };
 
         huhu1 {
             bindings = <&shift_oe>;
-            key-positions = <12 11>;
+            key-positions = <0 1>;
             layers = <0>;
         };
 
         hahah {
             bindings = <&kp C>;
-            key-positions = <22 21>;
+            key-positions = <11 10>;
             layers = <0>;
         };
 
         angled-close {
             bindings = <&kp DE_GT>;
-            key-positions = <1 0>;
+            key-positions = <21 20>;
             layers = <0>;
         };
 
@@ -339,12 +333,6 @@
             key-positions = <21 20>;
             layers = <0>;
         };
-
-
-
-
-
-
 
         komma {
             bindings = <&kp DE_COMMA>;
