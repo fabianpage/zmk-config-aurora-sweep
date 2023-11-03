@@ -208,10 +208,36 @@
             key-positions = <23 22>;
         };
 
+        w {
+            bindings = <&kp DE_W>;
+            key-positions = <2 1>;
+        };
+
+        oe {
+            bindings = <&shift_oe>;
+            key-positions = <12 11>;
+        };
+
         c {
             bindings = <&kp C>;
             key-positions = <22 21>;
         };
+
+        q {
+            bindings = <&kp DE_Q>;
+            key-positions = <1 0>;
+        };
+
+        ae {
+            bindings = <&shift_ae>;
+            key-positions = <11 10>;
+        };
+
+        ue {
+            bindings = <&shift_ue>;
+            key-positions = <21 20>;
+        };
+
 
         komma {
             bindings = <&kp DE_COMMA>;
@@ -311,31 +337,6 @@
         plus_mal {
             bindings = <&plus_mal>;
             key-positions = <23 12 11>;
-        };
-
-        ae {
-            bindings = <&shift_ae>;
-            key-positions = <11 10>;
-        };
-
-        w {
-            bindings = <&kp DE_W>;
-            key-positions = <2 1>;
-        };
-
-        oe {
-            bindings = <&shift_oe>;
-            key-positions = <12 11>;
-        };
-
-        q {
-            bindings = <&kp DE_Q>;
-            key-positions = <1 0>;
-        };
-
-        ue {
-            bindings = <&shift_ue>;
-            key-positions = <21 20>;
         };
 
         previous_track {
