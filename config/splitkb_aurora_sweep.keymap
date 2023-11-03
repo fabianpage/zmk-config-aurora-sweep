@@ -322,18 +322,6 @@
             layers = <0>;
         };
 
-        ae {
-            bindings = <&shift_ae>;
-            key-positions = <11 10>;
-            layers = <0>;
-        };
-
-        ue {
-            bindings = <&shift_ue>;
-            key-positions = <21 20>;
-            layers = <0>;
-        };
-
         komma {
             bindings = <&kp DE_COMMA>;
             key-positions = <14 3>;
