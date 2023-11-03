@@ -305,13 +305,13 @@
         };
 
         huhu1 {
-            bindings = <&shift_oe>;
+            bindings = <&kp SPACE>;
             key-positions = <0 1>;
             layers = <1>;
         };
 
         hahah {
-            bindings = <&kp C>;
+            bindings = <&kp ENTER>;
             key-positions = <11 10>;
             layers = <1>;
         };
