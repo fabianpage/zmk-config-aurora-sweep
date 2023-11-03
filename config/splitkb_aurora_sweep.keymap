@@ -181,62 +181,169 @@
         z {
             bindings = <&kp DE_Z>;
             key-positions = <3 4>;
+            layers = <0>;
         };
 
         g {
             bindings = <&kp G>;
             key-positions = <14 13>;
+            layers = <0>;
         };
 
         b {
             bindings = <&kp B>;
             key-positions = <24 23>;
+            layers = <0>;
         };
 
         m {
             bindings = <&kp M>;
             key-positions = <3 2>;
+            layers = <0>;
         };
 
         f {
             bindings = <&kp F>;
             key-positions = <13 12>;
+            layers = <0>;
         };
 
         v {
             bindings = <&kp V>;
             key-positions = <23 22>;
+            layers = <0>;
         };
 
         w {
             bindings = <&kp DE_W>;
             key-positions = <2 1>;
+            layers = <0>;
         };
 
         oe {
             bindings = <&shift_oe>;
             key-positions = <12 11>;
+            layers = <0>;
         };
 
         c {
             bindings = <&kp C>;
             key-positions = <22 21>;
+            layers = <0>;
         };
 
         q {
             bindings = <&kp DE_Q>;
             key-positions = <1 0>;
+            layers = <0>;
         };
 
         ae {
             bindings = <&shift_ae>;
             key-positions = <11 10>;
+            layers = <0>;
         };
 
         ue {
             bindings = <&shift_ue>;
             key-positions = <21 20>;
+            layers = <0>;
         };
+
+        x {
+            bindings = <&kp DE_X>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        y {
+            bindings = <&kp DE_Y>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        angled-open {
+            bindings = <&kp DE_LT>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        angled-open {
+            bindings = <&kp DE_LT>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        square-open {
+            bindings = <&kp DE_LBKT>;
+            key-positions = <14 13>;
+            layers = <0>;
+        };
+
+        round-open {
+            bindings = <&kp DE_LPAR>;
+            key-positions = <24 23>;
+            layers = <0>;
+        };
+
+        curly-open {
+            bindings = <&kp DE_LBRC>;
+            key-positions = <3 2>;
+            layers = <0>;
+        };
+
+        square-close {
+            bindings = <&kp DE_RBKT>;
+            key-positions = <13 12>;
+            layers = <0>;
+        };
+
+        round-close {
+            bindings = <&kp DE_RPAR>;
+            key-positions = <23 22>;
+            layers = <0>;
+        };
+
+        curly-close {
+            bindings = <&kp DE_LBRC>;
+            key-positions = <2 1>;
+            layers = <0>;
+        };
+
+        huhu1 {
+            bindings = <&shift_oe>;
+            key-positions = <12 11>;
+            layers = <0>;
+        };
+
+        hahah {
+            bindings = <&kp C>;
+            key-positions = <22 21>;
+            layers = <0>;
+        };
+
+        angled-close {
+            bindings = <&kp DE_GT>;
+            key-positions = <1 0>;
+            layers = <0>;
+        };
+
+        ae {
+            bindings = <&shift_ae>;
+            key-positions = <11 10>;
+            layers = <0>;
+        };
+
+        ue {
+            bindings = <&shift_ue>;
+            key-positions = <21 20>;
+            layers = <0>;
+        };
+
+
+
+
+
 
 
         komma {
@@ -274,12 +381,12 @@
             key-positions = <3 12>;
         };
 
-        y {
+        yy {
             bindings = <&kp DE_Y>;
             key-positions = <21 12>;
         };
 
-        x {
+        xx {
             bindings = <&kp DE_X>;
             key-positions = <11 2>;
         };
