@@ -453,6 +453,11 @@
             key-positions = <3 1>;
             layers = <1>;
         };
+
+        tilde2 {
+            bindings = <&with_space DE_TILDE>;
+            key-positions = <0 10 20>;
+        };
     };
 
     macros {
@@ -493,6 +498,13 @@
                 <&kp DE_U_UMLAUT>,
                 <&macro_tap>,
                 <&kp CAPSLOCK>;
+        };
+
+        with_space: with_space {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp SPACE>;
+            label = "WITH_SPACE";
         };
     };
 
