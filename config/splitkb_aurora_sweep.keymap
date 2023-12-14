@@ -162,8 +162,8 @@
             key-positions = <24 22>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
+        hhhhhhh {
+            bindings = <&none>;
             key-positions = <3 1>;
             layers = <0>;
         };
@@ -173,8 +173,8 @@
             key-positions = <13 11>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
+        aaaaaaaaaaa {
+            bindings = <&none>;
             key-positions = <23 21>;
         };
 
@@ -304,13 +304,13 @@
             layers = <1>;
         };
 
-        huhu1 {
+        backspace2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
             layers = <1>;
         };
 
-        hahah {
+        enter2 {
             bindings = <&kp ENTER>;
             key-positions = <11 10>;
             layers = <1>;
@@ -377,18 +377,18 @@
             key-positions = <14 3 12>;
         };
 
-        angle-bracket {
-            bindings = <&angle_bracket>;
+        zzzzzzzzzz {
+            bindings = <&trans>;
             key-positions = <13 1>;
         };
 
-        square_bracket {
-            bindings = <&square_bracket>;
+        mmmmmmmmmmm {
+            bindings = <&trans>;
             key-positions = <23 11>;
         };
 
-        curly_bracket {
-            bindings = <&curly_bracket>;
+        ttttttttt {
+            bindings = <&trans>;
             key-positions = <3 11>;
         };
 
@@ -397,8 +397,8 @@
             key-positions = <14 22>;
         };
 
-        round_bracket {
-            bindings = <&round_bracket>;
+        iiiiiii {
+            bindings = <&trans>;
             key-positions = <13 21>;
         };
 
@@ -468,6 +468,7 @@
                 <&macro_tap>,
                 <&kp CAPSLOCK>;
         };
+
         caps_oe: caps_oe {
             compatible = "zmk,behavior-macro";
             label = "CAPS_OE";
@@ -480,6 +481,7 @@
                 <&macro_tap>,
                 <&kp CAPSLOCK>;
         };
+
         caps_ue: caps_ue {
             compatible = "zmk,behavior-macro";
             label = "CAPS_UE";
@@ -503,6 +505,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         shift_ae: shift_ae {
             compatible = "zmk,behavior-mod-morph";
             label = "SHIFT_AE";
@@ -511,6 +514,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         shift_oe: shift_oe {
             compatible = "zmk,behavior-mod-morph";
             label = "SHIFT_OE";
@@ -519,6 +523,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         shift_ue: shift_ue {
             compatible = "zmk,behavior-mod-morph";
             label = "SHIFT_UE";
@@ -527,6 +532,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n1_f1: n1_f1 {
             compatible = "zmk,behavior-mod-morph";
             label = "N1_F1";
@@ -535,6 +541,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n2_f2: n2_f2 {
             compatible = "zmk,behavior-mod-morph";
             label = "N2_F2";
@@ -543,6 +550,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n3_f3: n3_f3 {
             compatible = "zmk,behavior-mod-morph";
             label = "N3_F3";
@@ -551,6 +559,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n4_f4: n4_f4 {
             compatible = "zmk,behavior-mod-morph";
             label = "N4_F4";
@@ -560,6 +569,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n5_f5: n5_f5 {
             compatible = "zmk,behavior-mod-morph";
             label = "N5_F5";
@@ -568,6 +578,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n6_f6: n6_f6 {
             compatible = "zmk,behavior-mod-morph";
             label = "N6_F6";
@@ -576,6 +587,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n7_f7: n7_f7 {
             compatible = "zmk,behavior-mod-morph";
             label = "N7_F7";
@@ -584,6 +596,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n8_f8: n8_f8 {
             compatible = "zmk,behavior-mod-morph";
             label = "N8_F8";
@@ -592,6 +605,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n9_f9: n9_f9 {
             compatible = "zmk,behavior-mod-morph";
             label = "N9_F9";
@@ -600,6 +614,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         n0_f10: n0_f10 {
             compatible = "zmk,behavior-mod-morph";
             label = "N0_F10";
@@ -608,6 +623,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         angle_bracket: angle_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "ANGLE_BRACKET";
@@ -616,6 +632,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         square_bracket: square_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "SQUARE_BRACKET";
@@ -624,6 +641,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         curly_bracket: curly_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "CURLY_BRACKET";
@@ -632,6 +650,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         round_bracket: round_bracket {
             compatible = "zmk,behavior-mod-morph";
             label = "ROUND_BRACKET";
@@ -640,6 +659,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         question_exclamation: question_exclamation {
             compatible = "zmk,behavior-mod-morph";
             label = "QUESTION_EXCLAMATION";
@@ -648,6 +668,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         quotes: quotes {
             compatible = "zmk,behavior-mod-morph";
             label = "QUOTES";
@@ -656,6 +677,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         tilde_caret: tilde_caret {
             compatible = "zmk,behavior-mod-morph";
             label = "TILDE_CARET";
@@ -664,6 +686,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         ticks: ticks {
             compatible = "zmk,behavior-mod-morph";
             label = "TICKS";
@@ -672,6 +695,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         przoent_ampersand: przoent_ampersand {
             compatible = "zmk,behavior-mod-morph";
             label = "PRZOENT_AMPERSAND";
@@ -680,6 +704,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         dollar_strich: dollar_strich {
             compatible = "zmk,behavior-mod-morph";
             label = "DOLLAR_STRICH";
@@ -688,6 +713,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         plus_mal: plus_mal {
             compatible = "zmk,behavior-mod-morph";
             label = "PLUS_MAL";
@@ -696,6 +722,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         forward_back_slash: forward_back_slash {
             compatible = "zmk,behavior-mod-morph";
             label = "FORWARD_BACK_SLASH";
@@ -704,6 +731,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         next_prev: next_prev {
             compatible = "zmk,behavior-mod-morph";
             label = "NEXT_PREV";
@@ -712,6 +740,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         lauter_leiser: lauter_leiser {
             compatible = "zmk,behavior-mod-morph";
             label = "LAUTER_LEISER";
@@ -720,6 +749,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         sticky_mod: sticky_mod {
             compatible = "zmk,behavior-sticky-key";
             label = "STICKY_MOD";
@@ -727,6 +757,7 @@
             #binding-cells = <1>;
             release-after-ms = <1000>;
         };
+
         hash_equal: hash_equal {
             compatible = "zmk,behavior-mod-morph";
             label = "HASH_EQUAL";
@@ -735,6 +766,7 @@
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
+
         backspace_delete: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_DELETE";
