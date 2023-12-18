@@ -768,6 +768,7 @@
             bindings = <&kp>;
             #binding-cells = <1>;
             release-after-ms = <1000>;
+            ignore-modifiers;
         };
 
         hash_equal: hash_equal {
