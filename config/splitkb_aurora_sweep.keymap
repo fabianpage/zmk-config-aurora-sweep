@@ -693,7 +693,7 @@
         tilde_caret: tilde_caret {
             compatible = "zmk,behavior-mod-morph";
             label = "TILDE_CARET";
-            bindings = <&kp DE_TILDE>, <&kp DE_CARET>;
+            bindings = <&with_space DE_CARET>, <&with_space DE_CARET>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -702,7 +702,7 @@
         ticks: ticks {
             compatible = "zmk,behavior-mod-morph";
             label = "TICKS";
-            bindings = <&kp DE_GRAVE>, <&kp DE_ACUTE>;
+            bindings = <&with_space DE_GRAVE>, <&with_space DE_ACUTE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -804,10 +804,10 @@
 
         nav_nag {
             bindings = <
-&none  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME        &trans  &trans  &trans  &trans  &trans
-&none  &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
-&none  &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &to 0           &trans  &trans  &trans  &trans  &trans
-                                                   &sl 2                     &kp LSHIFT      &trans  &trans
+&kp BACKSPACE  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME        &trans  &trans  &trans  &trans  &trans
+&kp ENTER      &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
+&none          &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &to 0           &trans  &trans  &trans  &trans  &trans
+                                                           &sl 2                     &kp LSHIFT      &trans  &trans
             >;
         };
 
