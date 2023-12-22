@@ -693,7 +693,7 @@
         tilde_caret: tilde_caret {
             compatible = "zmk,behavior-mod-morph";
             label = "TILDE_CARET";
-            bindings = <&with_space DE_CARET>, <&with_space DE_CARET>;
+            bindings = <&with_space DE_TILDE>, <&with_space DE_CARET>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
