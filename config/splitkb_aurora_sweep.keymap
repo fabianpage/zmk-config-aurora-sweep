@@ -326,16 +326,6 @@
             key-positions = <23 12>;
         };
 
-        yy {
-            bindings = <&kp DE_Y>;
-            key-positions = <21 12>;
-        };
-
-        xx {
-            bindings = <&kp DE_X>;
-            key-positions = <11 2>;
-        };
-
         at {
             bindings = <&kp DE_AT>;
             key-positions = <24 13 22>;
@@ -364,16 +354,6 @@
         plus_mal {
             bindings = <&kp DE_EQUAL>;
             key-positions = <23 12 11>;
-        };
-
-        question_exclamation {
-            bindings = <&question_exclamation>;
-            key-positions = <12 2 13>;
-        };
-
-        tilde_daechli {
-            bindings = <&tilde_caret>;
-            key-positions = <12 2 11>;
         };
 
         bt0 {
@@ -444,6 +424,24 @@
         FRONTTICK {
             bindings = <&kp DE_ACUTE>;
             key-positions = <23 12>;
+        };
+
+        star {
+            bindings = <&kp DE_STAR>;
+            key-positions = <14 13 12>;
+            layers = <0>;
+        };
+
+        plus {
+            bindings = <&kp DE_PLUS>;
+            key-positions = <4 3 2>;
+            layers = <0>;
+        };
+
+        Dach {
+            bindings = <&kp DE_CARET>;
+            key-positions = <24 23 22>;
+            layers = <0>;
         };
     };
 
