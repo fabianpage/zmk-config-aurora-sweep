@@ -147,11 +147,6 @@
             layers = <1>;
         };
 
-        trans1 {
-            bindings = <&trans>;
-            key-positions = <4 2>;
-        };
-
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <14 12>;
@@ -162,20 +157,9 @@
             key-positions = <24 22>;
         };
 
-        hhhhhhh {
-            bindings = <&none>;
-            key-positions = <3 1>;
-            layers = <0>;
-        };
-
         space {
             bindings = <&kp SPACE>;
             key-positions = <13 11>;
-        };
-
-        aaaaaaaaaaa {
-            bindings = <&none>;
-            key-positions = <23 21>;
         };
 
         z {
@@ -332,11 +316,6 @@
             key-positions = <13 2>;
         };
 
-        trans2 {
-            bindings = <&trans>;
-            key-positions = <12 1>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <24 13>;
@@ -345,16 +324,6 @@
         strich {
             bindings = <&kp DE_MINUS>;
             key-positions = <23 12>;
-        };
-
-        trans3 {
-            bindings = <&trans>;
-            key-positions = <22 11>;
-        };
-
-        trans4 {
-            bindings = <&trans>;
-            key-positions = <3 12>;
         };
 
         yy {
@@ -375,31 +344,6 @@
         equal {
             bindings = <&kp DE_EQUAL>;
             key-positions = <14 3 12>;
-        };
-
-        zzzzzzzzzz {
-            bindings = <&trans>;
-            key-positions = <13 1>;
-        };
-
-        mmmmmmmmmmm {
-            bindings = <&trans>;
-            key-positions = <23 11>;
-        };
-
-        ttttttttt {
-            bindings = <&trans>;
-            key-positions = <3 11>;
-        };
-
-        trans5 {
-            bindings = <&trans>;
-            key-positions = <14 22>;
-        };
-
-        iiiiiii {
-            bindings = <&trans>;
-            key-positions = <13 21>;
         };
 
         prozent_kaufmaenisch {
