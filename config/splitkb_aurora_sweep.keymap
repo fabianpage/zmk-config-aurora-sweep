@@ -795,10 +795,10 @@
 
         default_layer {
             bindings = <
-&kp P  &kp O  &kp DE_I  &kp U     &kp T            &trans  &trans  &trans  &trans  &trans
-&kp S  &kp L  &kp K     &kp J     &kp H            &trans  &trans  &trans  &trans  &trans
-&kp D  &kp A  &kp DE_E  &kp DE_R  &kp N            &trans  &trans  &trans  &trans  &trans
-                        &sl 1     &sk RIGHT_SHIFT  &trans  &trans
+&kp P  &kp O  &kp I  &kp U  &kp T            &trans  &trans  &trans  &trans  &trans
+&kp S  &kp L  &kp K  &kp J  &kp H            &trans  &trans  &trans  &trans  &trans
+&kp D  &kp A  &kp E  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
+                     &sl 1  &sk RIGHT_SHIFT  &trans  &trans
             >;
         };
 
