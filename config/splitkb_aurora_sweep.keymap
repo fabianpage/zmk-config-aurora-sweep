@@ -439,9 +439,14 @@
         };
 
         Dach {
-            bindings = <&kp DE_CARET>;
+            bindings = <&with_space DE_CARET>;
             key-positions = <24 23 22>;
             layers = <0>;
+        };
+
+        tilde {
+            bindings = <&with_space DE_TILDE>;
+            key-positions = <23 22 21>;
         };
     };
 
@@ -490,6 +495,13 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp SPACE>;
             label = "WITH_SPACE";
+        };
+
+        klammer: klammer {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER &kp DE_SPACE>;
+            label = "KLAMMER";
         };
     };
 
