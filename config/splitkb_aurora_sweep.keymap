@@ -377,19 +377,9 @@
             key-positions = <12 2 13>;
         };
 
-        qutoes {
-            bindings = <&quotes>;
-            key-positions = <22 12 23>;
-        };
-
         tilde_daechli {
             bindings = <&tilde_caret>;
             key-positions = <12 2 11>;
-        };
-
-        ticks {
-            bindings = <&ticks>;
-            key-positions = <21 22 12>;
         };
 
         delete {
@@ -446,6 +436,26 @@
         Strich {
             bindings = <&kp DE_PIPE>;
             key-positions = <21 23>;
+        };
+
+        DQOUTS {
+            bindings = <&kp DE_DQT>;
+            key-positions = <14 3>;
+        };
+
+        SQUOT {
+            bindings = <&kp DE_SQT>;
+            key-positions = <13 2>;
+        };
+
+        BACKTICK {
+            bindings = <&kp DE_GRAVE>;
+            key-positions = <24 13>;
+        };
+
+        FRONTTICK {
+            bindings = <&kp DE_ACUTE>;
+            key-positions = <23 12>;
         };
     };
 
