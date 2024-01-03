@@ -454,9 +454,49 @@
             layers = <1>;
         };
 
-        tilde2 {
-            bindings = <&with_space DE_TILDE>;
+        bt0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <4 14 24>;
+        };
+
+        bt1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <3 13 23>;
+        };
+
+        bt2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <22 12 2>;
+        };
+
+        bt3 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <1 11 21>;
+        };
+
+        bt4 {
+            bindings = <&bt BT_SEL 4>;
             key-positions = <0 10 20>;
+        };
+
+        bt_clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <0 1 2 3>;
+        };
+
+        ble {
+            bindings = <&out OUT_BLE>;
+            key-positions = <11 12 13 14>;
+        };
+
+        usb {
+            bindings = <&out OUT_USB>;
+            key-positions = <24 23 22 21>;
+        };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <20 21 22 23>;
         };
     };
 
