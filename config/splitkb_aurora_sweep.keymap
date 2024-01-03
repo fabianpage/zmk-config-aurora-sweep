@@ -294,7 +294,7 @@
             layers = <1>;
         };
 
-        enter2 {
+        enter {
             bindings = <&kp ENTER>;
             key-positions = <11 10>;
             layers = <1>;
