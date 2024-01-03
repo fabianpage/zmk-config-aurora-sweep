@@ -846,7 +846,7 @@
             bindings = <
 &kp BACKSPACE  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME        &trans  &trans  &trans  &trans  &trans
 &kp ENTER      &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
-&none          &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &to 0           &trans  &trans  &trans  &trans  &trans
+&none          &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &none           &trans  &trans  &trans  &trans  &trans
                                                            &sl 1                     &kp LSHIFT      &trans  &trans
             >;
         };
