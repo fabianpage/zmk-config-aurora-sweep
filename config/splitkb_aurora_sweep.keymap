@@ -448,6 +448,30 @@
             bindings = <&with_space DE_TILDE>;
             key-positions = <23 22 21>;
         };
+
+        kspitz {
+            bindings = <&klammer DE_LT DE_GT>;
+            key-positions = <24 23 22>;
+            layers = <1>;
+        };
+
+        kbracket {
+            bindings = <&klammer DE_LBKT DE_RBKT>;
+            key-positions = <3 2 1>;
+            layers = <1>;
+        };
+
+        kparen {
+            bindings = <&klammer DE_LPAR DE_RPAR>;
+            key-positions = <11 12 13>;
+            layers = <1>;
+        };
+
+        kgeschweift {
+            bindings = <&klammer DE_LBRC DE_RBRC>;
+            key-positions = <21 22 23>;
+            layers = <1>;
+        };
     };
 
     macros {
