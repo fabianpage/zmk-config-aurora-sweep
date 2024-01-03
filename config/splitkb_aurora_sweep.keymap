@@ -404,6 +404,7 @@
         pipe_combo {
             bindings = <&kp DE_PIPE>;
             key-positions = <21 23>;
+            layers = <0>;
         };
 
         DQOUTS {
