@@ -847,16 +847,7 @@
 &kp BACKSPACE  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME        &trans  &trans  &trans  &trans  &trans
 &kp ENTER      &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
 &none          &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &to 0           &trans  &trans  &trans  &trans  &trans
-                                                           &sl 2                     &kp LSHIFT      &trans  &trans
-            >;
-        };
-
-        f_special {
-            bindings = <
-&out OUT_USB  &none         &bt BT_CLR    &none         &out OUT_BLE  &trans  &trans  &trans  &trans  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans
-&none         &bootloader   &none         &sys_reset    &to 0         &trans  &trans  &trans  &trans  &trans
-                                          &trans        &trans        &trans  &trans
+                                                           &sl 1                     &kp LSHIFT      &trans  &trans
             >;
         };
     };
