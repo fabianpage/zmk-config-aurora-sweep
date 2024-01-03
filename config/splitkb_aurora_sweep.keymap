@@ -152,8 +152,8 @@
             key-positions = <14 12>;
         };
 
-        dollar_strich {
-            bindings = <&dollar_strich>;
+        dollar {
+            bindings = <&kp DE_DOLLAR>;
             key-positions = <24 22>;
         };
 
@@ -441,6 +441,11 @@
         bootloader {
             bindings = <&bootloader>;
             key-positions = <20 21 22 23>;
+        };
+
+        Strich {
+            bindings = <&kp DE_PIPE>;
+            key-positions = <21 23>;
         };
     };
 
