@@ -210,8 +210,8 @@
             layers = <0>;
         };
 
-        c {
-            bindings = <&kp C>;
+        k {
+            bindings = <&kp DE_K>;
             key-positions = <22 21>;
             layers = <0>;
         };
@@ -830,7 +830,7 @@
         default_layer {
             bindings = <
 &kp P  &kp O  &kp I  &kp U  &kp T            &trans  &trans  &trans  &trans  &trans
-&kp S  &kp L  &kp K  &kp J  &kp H            &trans  &trans  &trans  &trans  &trans
+&kp S  &kp L  &kp E  &kp J  &kp H            &trans  &trans  &trans  &trans  &trans
 &kp D  &kp A  &kp E  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
                      &sl 1  &sk RIGHT_SHIFT  &trans  &trans
             >;
