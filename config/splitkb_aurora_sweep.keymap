@@ -831,7 +831,7 @@
             bindings = <
 &kp P  &kp O  &kp I  &kp U  &kp T            &trans  &trans  &trans  &trans  &trans
 &kp S  &kp L  &kp E  &kp J  &kp H            &trans  &trans  &trans  &trans  &trans
-&kp D  &kp A  &kp E  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
+&kp D  &kp A  &kp C  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
                      &sl 1  &sk RIGHT_SHIFT  &trans  &trans
             >;
         };
