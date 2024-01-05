@@ -448,6 +448,7 @@
         tilde {
             bindings = <&with_space DE_TILDE>;
             key-positions = <23 22 21>;
+            layers = <0>;
         };
 
         kspitz {
