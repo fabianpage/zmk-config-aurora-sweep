@@ -309,21 +309,25 @@
         komma {
             bindings = <&kp DE_COMMA>;
             key-positions = <14 3>;
+            layers = <0>;
         };
 
         punkt {
             bindings = <&kp DE_DOT>;
             key-positions = <13 2>;
+            layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <24 13>;
+            layers = <0>;
         };
 
         strich {
             bindings = <&kp DE_MINUS>;
             key-positions = <23 12>;
+            layers = <0>;
         };
 
         at {
@@ -422,11 +426,13 @@
         BACKTICK {
             bindings = <&kp DE_GRAVE>;
             key-positions = <24 13>;
+            layers = <1>;
         };
 
         FRONTTICK {
             bindings = <&kp DE_ACUTE>;
             key-positions = <23 12>;
+            layers = <1>;
         };
 
         star {
