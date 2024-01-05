@@ -538,13 +538,7 @@
         klammer: klammer {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings =
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_wait_time 100>,
-                <&macro_param_2to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_wait_time 100>,
-                <&kp LEFT_ARROW>;
-
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER &kp LEFT_ARROW>;
             label = "KLAMMER";
         };
     };
