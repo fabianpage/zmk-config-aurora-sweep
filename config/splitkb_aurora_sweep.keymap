@@ -410,11 +410,13 @@
         DQOUTS {
             bindings = <&kp DE_DQT>;
             key-positions = <14 3>;
+            layers = <1>;
         };
 
         SQUOT {
             bindings = <&kp DE_SQT>;
             key-positions = <13 2>;
+            layers = <0>;
         };
 
         BACKTICK {
