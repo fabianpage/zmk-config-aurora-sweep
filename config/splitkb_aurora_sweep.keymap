@@ -330,16 +330,6 @@
             layers = <0>;
         };
 
-        at {
-            bindings = <&kp DE_AT>;
-            key-positions = <24 13 22>;
-        };
-
-        equal {
-            bindings = <&kp DE_EQUAL>;
-            key-positions = <14 3 12>;
-        };
-
         prozent_kaufmaenisch {
             bindings = <&kp DE_PERCENT>;
             key-positions = <14 3 2>;
