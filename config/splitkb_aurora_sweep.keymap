@@ -494,6 +494,26 @@
             key-positions = <12 11 23>;
             layers = <1>;
         };
+
+        equal {
+            bindings = <&kp DE_EQUAL>;
+            key-positions = <14 3 12>;
+        };
+
+        question {
+            bindings = <&kp DE_QMARK>;
+            key-positions = <13 2 11>;
+        };
+
+        at {
+            bindings = <&kp DE_AT>;
+            key-positions = <24 13 22>;
+        };
+
+        exclamation {
+            bindings = <&kp DE_EXCL>;
+            key-positions = <23 12 21>;
+        };
     };
 
     macros {
