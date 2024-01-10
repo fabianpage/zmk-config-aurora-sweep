@@ -414,7 +414,7 @@
         SQUOT {
             bindings = <&kp DE_SQT>;
             key-positions = <13 2>;
-            layers = <0>;
+            layers = <1>;
         };
 
         BACKTICK {
