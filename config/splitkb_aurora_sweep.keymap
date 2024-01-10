@@ -498,16 +498,6 @@
             bindings = <&kp DE_QMARK>;
             key-positions = <13 2 11>;
         };
-
-        at {
-            bindings = <&kp DE_AT>;
-            key-positions = <24 13 22>;
-        };
-
-        exclamation {
-            bindings = <&kp DE_EXCL>;
-            key-positions = <23 12 21>;
-        };
     };
 
     macros {
@@ -853,8 +843,8 @@
         default_layer {
             bindings = <
 &kp P  &kp O  &kp I  &kp U  &kp T            &trans  &trans  &trans  &trans  &trans
-&kp S  &kp L  &kp K  &kp J  &kp H            &trans  &trans  &trans  &trans  &trans
-&kp D  &kp A  &kp E  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
+&kp S  &kp A  &kp E  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
+&kp D  &kp L  &kp C  &kp V  &kp H            &trans  &trans  &trans  &trans  &trans
                      &sl 1  &sk RIGHT_SHIFT  &trans  &trans
             >;
         };
