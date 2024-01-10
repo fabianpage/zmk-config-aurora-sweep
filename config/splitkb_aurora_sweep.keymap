@@ -333,21 +333,25 @@
         prozent_kaufmaenisch {
             bindings = <&kp DE_PERCENT>;
             key-positions = <14 3 2>;
+            layers = <0>;
         };
 
         slashes {
             bindings = <&kp DE_AMPERSAND>;
             key-positions = <13 2 1>;
+            layers = <0>;
         };
 
         hash {
             bindings = <&kp DE_HASH>;
             key-positions = <24 13 12>;
+            layers = <0>;
         };
 
-        plus_mal {
-            bindings = <&kp DE_EQUAL>;
+        nonw {
+            bindings = <&none>;
             key-positions = <23 12 11>;
+            layers = <0>;
         };
 
         bt0 {
