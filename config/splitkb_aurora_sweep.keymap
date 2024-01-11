@@ -192,8 +192,8 @@
             layers = <0>;
         };
 
-        v {
-            bindings = <&kp V>;
+        j {
+            bindings = <&kp J>;
             key-positions = <23 22>;
             layers = <0>;
         };
@@ -210,8 +210,8 @@
             layers = <0>;
         };
 
-        c {
-            bindings = <&kp C>;
+        k {
+            bindings = <&kp K>;
             key-positions = <22 21>;
             layers = <0>;
         };
