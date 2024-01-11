@@ -418,13 +418,13 @@
         };
 
         BACKTICK {
-            bindings = <&kp DE_GRAVE>;
+            bindings = <&with_space DE_GRAVE>;
             key-positions = <24 13>;
             layers = <1>;
         };
 
         FRONTTICK {
-            bindings = <&kp DE_ACUTE>;
+            bindings = <&with_space DE_ACUTE>;
             key-positions = <23 12>;
             layers = <1>;
         };
