@@ -336,8 +336,8 @@
             layers = <0>;
         };
 
-        slashes {
-            bindings = <&kp DE_AMPERSAND>;
+        slash {
+            bindings = <&kp DE_SLASH>;
             key-positions = <13 2 1>;
             layers = <0>;
         };
@@ -348,8 +348,8 @@
             layers = <0>;
         };
 
-        nonw {
-            bindings = <&none>;
+        backslash {
+            bindings = <&kp DE_BACKSLASH>;
             key-positions = <23 12 11>;
             layers = <0>;
         };
@@ -474,18 +474,6 @@
         kgeschweift {
             bindings = <&klammer DE_LBRC DE_RBRC>;
             key-positions = <21 22 23>;
-            layers = <1>;
-        };
-
-        backslash {
-            bindings = <&kp DE_BACKSLASH>;
-            key-positions = <2 13 1>;
-            layers = <1>;
-        };
-
-        slash {
-            bindings = <&kp DE_FSLH>;
-            key-positions = <12 11 23>;
             layers = <1>;
         };
 
