@@ -393,6 +393,7 @@
         bootloader {
             bindings = <&bootloader>;
             key-positions = <20 21 22 23>;
+            layers = <0>;
         };
 
         pipe_combo {
