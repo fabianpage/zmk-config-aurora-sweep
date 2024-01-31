@@ -492,6 +492,12 @@
             bindings = <&kp DE_EXCLAMATION>;
             key-positions = <23 12 21>;
         };
+
+        kkgeschweift {
+            bindings = <&klammercomma DE_LBRC DE_RBRC>;
+            key-positions = <21 22 23 20>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -546,6 +552,13 @@
             #binding-cells = <2>;
             bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER &kp LEFT_ARROW>;
             label = "KLAMMER";
+        };
+
+        klammercomma: klammercomma {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER &kp DE_SEMICOLON &kp LEFT_ARROW &kp LEFT_ARROW>;
+            label = "KLAMMERCOMMA";
         };
     };
 
