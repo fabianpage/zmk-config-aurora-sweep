@@ -4,24 +4,20 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <behaviors.dtsi>
 #include "keys_de_swiss.h"
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-&default_transform {
-    col-offset = <0>;
-};
+&default_transform { col-offset = <0>; };
 
 &mt {
     //  flavor = "tap-preferred";
     // tapping_term_ms = <200>;
 };
 
-&led_strip {
-    chain-length = <21>;
-};
+&led_strip { chain-length = <21>; };
 
 / {
     combos {
@@ -485,6 +481,16 @@
         question {
             bindings = <&kp DE_QMARK>;
             key-positions = <13 2 11>;
+        };
+
+        at {
+            bindings = <&kp DE_AT>;
+            key-positions = <24 13 22>;
+        };
+
+        excl {
+            bindings = <&kp DE_EXCLAMATION>;
+            key-positions = <23 12 21>;
         };
     };
 
