@@ -843,6 +843,13 @@
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
+
+        shift_capsword: shift_capsword {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHIFT_CAPSWORD";
+            #binding-cells = <0>;
+            bindings = <&kp LSHIFT>, <&caps_word>;
+        };
     };
 
     keymap {
@@ -853,7 +860,7 @@
 &kp P  &kp O  &kp I  &kp U  &kp T            &trans  &trans  &trans  &trans  &trans
 &kp S  &kp A  &kp E  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
 &kp D  &kp L  &kp C  &kp V  &kp H            &trans  &trans  &trans  &trans  &trans
-                     &sl 1  &sk RIGHT_SHIFT  &trans  &trans
+                     &sl 1  &shift_capsword  &trans  &trans
             >;
         };
 
@@ -862,7 +869,7 @@
 &backspace_delete  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME        &trans  &trans  &trans  &trans  &trans
 &kp ENTER          &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
 &none              &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &none           &trans  &trans  &trans  &trans  &trans
-                                                               &sl 1                     &kp LSHIFT      &trans  &trans
+                                                               &sl 1                     &trans          &trans  &trans
             >;
         };
     };
