@@ -874,7 +874,7 @@
             label = "MYCAPSWORD";
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
-            continue-list = <UNDERSCORE MINUS DELETE BACKSPACE>;
+            continue-list = <UNDERSCORE MINUS DELETE BACKSPACE SLASH QUESTION>;
         };
     };
 
