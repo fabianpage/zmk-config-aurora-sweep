@@ -866,7 +866,15 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFT_CAPSWORD";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT>, <&caps_word>;
+            bindings = <&kp LSHIFT>, <&mycapsword>;
+        };
+
+        mycapsword: mycapsword {
+            compatible = "zmk,behavior-caps-word";
+            label = "MYCAPSWORD";
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            continue-list = <UNDERSCORE MINUS DELETE BACKSPACE>;
         };
     };
 
