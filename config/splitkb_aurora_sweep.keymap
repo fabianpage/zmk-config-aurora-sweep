@@ -517,6 +517,11 @@
             key-positions = <10 1>;
             layers = <0>;
         };
+
+        atat {
+            bindings = <&atat>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -578,6 +583,13 @@
             #binding-cells = <2>;
             bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER &kp DE_SEMICOLON &kp LEFT_ARROW &kp LEFT_ARROW>;
             label = "KLAMMERCOMMA";
+        };
+
+        atat: atat {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DE_AT &kp DE_AT>;
+            label = "ATAT";
         };
     };
 
