@@ -520,7 +520,8 @@
 
         atat {
             bindings = <&atat>;
-            key-positions = <0 1>;
+            key-positions = <20 11>;
+            layers = <0>;
         };
     };
 
