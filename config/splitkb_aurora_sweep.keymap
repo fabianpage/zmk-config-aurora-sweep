@@ -867,7 +867,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFT_CAPSWORD";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT>, <&mycapsword>;
+            bindings = <&sticky_mod LEFT_SHIFT>, <&mycapsword>;
         };
 
         mycapsword: mycapsword {
