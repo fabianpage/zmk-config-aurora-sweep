@@ -230,18 +230,6 @@
             layers = <0>;
         };
 
-        x {
-            bindings = <&kp DE_X>;
-            key-positions = <3 4>;
-            layers = <1>;
-        };
-
-        y {
-            bindings = <&kp DE_Y>;
-            key-positions = <13 14>;
-            layers = <1>;
-        };
-
         angled-open {
             bindings = <&kp DE_LT>;
             key-positions = <23 24>;
@@ -907,7 +895,7 @@
             bindings = <
 &backspace_delete  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME        &trans  &trans  &trans  &trans  &trans
 &kp ENTER          &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
-&none              &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &none           &trans  &trans  &trans  &trans  &trans
+&kp DE_Y           &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &kp DE_X        &trans  &trans  &trans  &trans  &trans
                                                                &sl 1                     &trans          &trans  &trans
             >;
         };
