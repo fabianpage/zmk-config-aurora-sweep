@@ -877,6 +877,15 @@
             mods = <(MOD_LSFT)>;
             continue-list = <UNDERSCORE MINUS DELETE BACKSPACE SLASH QUESTION>;
         };
+
+        keyplusholdlayer: keyplusholdlayer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KEYPLUSHOLDLAYER";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -884,19 +893,28 @@
 
         default_layer {
             bindings = <
-&kp P  &kp O  &kp I  &kp U  &kp T            &trans  &trans  &trans  &trans  &trans
-&kp S  &kp A  &kp E  &kp R  &kp N            &trans  &trans  &trans  &trans  &trans
-&kp D  &kp L  &kp C  &kp V  &kp H            &trans  &trans  &trans  &trans  &trans
-                     &sl 1  &shift_capsword  &trans  &trans
+&kp P                  &kp O            &kp I  &kp U  &kp T    &trans  &trans  &trans  &trans  &trans
+&keyplusholdlayer 2 S  &kp A            &kp E  &kp R  &kp N    &trans  &trans  &trans  &trans  &trans
+&kp D                  &kp L            &kp C  &kp V  &kp H    &trans  &trans  &trans  &trans  &trans
+&sl 1                  &shift_capsword                                                 &trans  &trans
             >;
         };
 
         nav_nag {
             bindings = <
-&backspace_delete  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME        &trans  &trans  &trans  &trans  &trans
-&kp ENTER          &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans
-&kp DE_Y           &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &kp DE_X        &trans  &trans  &trans  &trans  &trans
-                                                               &sl 1                     &trans          &trans  &trans
+&backspace_delete  &kp END               &kp PAGE_UP           &kp PAGE_DOWN             &kp HOME          &trans  &trans  &trans  &trans  &trans
+&kp ENTER          &kp RIGHT_ARROW       &kp UP_ARROW          &kp DOWN_ARROW            &kp LEFT_ARROW    &trans  &trans  &trans  &trans  &trans
+&kp DE_Y           &sticky_mod LEFT_GUI  &sticky_mod LEFT_ALT  &sticky_mod LEFT_CONTROL  &kp DE_X          &trans  &trans  &trans  &trans  &trans
+&sl 1              &trans                                                                                                          &trans  &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &kp C_NEXT         &kp PAUSE_BREAK      &kp C_PREV               &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &kp DE_LEFT_BRACE  &kp DE_LEFT_BRACKET  &kp DE_LEFT_PARENTHESIS  &kp DE_LESS_THAN    &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans               &trans                   &trans              &trans  &trans  &trans  &trans  &trans
+&trans  &trans                                                                                                       &trans  &trans
             >;
         };
     };
