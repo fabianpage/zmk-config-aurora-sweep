@@ -903,10 +903,10 @@
 
         default_layer {
             bindings = <
-&homemods LEFT_CONTROL P  &kp O            &kp I  &kp U  &kp T                     &trans  &trans  &trans  &trans  &trans
-&keyplusholdlayer 2 S     &kp A            &kp E  &kp R  &homemods LEFT_ARROW N    &trans  &trans  &trans  &trans  &trans
-&homemods LEFT_GUI D      &kp L            &kp C  &kp V  &kp H                     &trans  &trans  &trans  &trans  &trans
-&sl 1                     &shift_capsword                                                                  &trans  &trans
+&homemods LEFT_CONTROL P  &kp O            &kp I  &kp U  &kp T    &trans  &trans  &trans  &trans  &trans
+&keyplusholdlayer 2 S     &kp A            &kp E  &kp R  &kp N    &trans  &trans  &trans  &trans  &trans
+&homemods LEFT_GUI D      &kp L            &kp C  &kp V  &kp H    &trans  &trans  &trans  &trans  &trans
+&sl 1                     &shift_capsword                                                 &trans  &trans
             >;
         };
 
